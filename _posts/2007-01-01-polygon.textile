@@ -1,0 +1,37 @@
+---
+layout: work
+title: London Polygon
+thumbnail: teaser/polygon.png
+year: 2007	
+description: Mapping the London air traffic network by bike.
+---
+
+notextile. <div class="introcopy">
+ 
+When an aircraft traverses any airspace, anywhere in the world, it never does so in a straight line. An aircraft navigates from one waypoint to another.
+
+This project is a document of the waypoints within the Greater London Airspace, defined as an area starting the furthest North and moving clockwise: Stansted to London City, Gatwick to Heathrow and finally ending at Luton.
+
+Each waypoint has no corresponding building, structure or even transmitter on the ground. It only exists as a five character name associated with longitude and latitude coordinates. It is a phantom.
+
+I have visited fifty-four waypoints situated within the polygon by biking through the streets of London using a GPS unit taped onto my bicycle to pin-point my way to their location.
+
+This book contains photographs from each of these waypoints, positioned on the page as they relate to their associated airport, and starting the furthest North.
+
+— Christian Nolle, May 2006
+
+notextile. </div>
+
+<ul id="imagelist">
+	<li><img src="{{ site.imageurl }}/polygon/1079.jpg" width="960" height="500" alt="" /><span class="title">London Polygon, 30&times;30cm, hardcover, 54 plates.</span></li>
+
+	<li><img src="{{ site.imageurl }}/polygon/1084.jpg" width="960" height="526" alt="" /><span class="title">Index page with the 54 waypoints and their location within the Polygon, the area shaped between the five London airports.</span></li>
+
+	<li><img src="{{ site.imageurl }}/polygon/1085.jpg" width="960" height="440" alt="" /><span class="title">Close-up of the index page.</span></li>
+
+	<li><img src="{{ site.imageurl }}/polygon/1086.jpg" width="960" height="461" alt="" /><span class="title">Each photograph is rotated according to the orientation it has to the airport it relates to.</span></li>
+	
+	<li><img src="{{ site.imageurl }}/polygon/1088.jpg" width="960" height="529" alt="" /><span class="title">Waypoint D082S, 189&#186; to London City Airport</span></li>
+
+	<li><img src="{{ site.imageurl }}/polygon/1089.jpg" width="960" height="540" alt="" /><span class="title">Waypoint BKY08, 72&#186; to Stansted Airport.</span></li>
+</ul>

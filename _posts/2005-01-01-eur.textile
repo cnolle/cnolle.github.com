@@ -1,0 +1,20 @@
+---
+layout: work
+title: E.U.R
+thumbnail: teaser/eur.png
+year: 2005
+---
+<ul id="imagelist">
+
+	<li><img src="{{ site.imageurl }}/eur/green_grass.jpg" alt="" title="" /><span class="title"></span></li>
+	
+	<li><img src="{{ site.imageurl }}/eur/horse_on_hedge.jpg" alt="" title="" /><span class="title"></span></li>
+	
+	<li><img src="{{ site.imageurl }}/eur/oranges1.jpg" alt="" title="" /><span class="title"></span></li>	
+
+	<li><img src="{{ site.imageurl }}/eur/overview.jpg" alt="" title="" /><span class="title"></span></li>
+
+	<li><img src="{{ site.imageurl }}/eur/sculpture.jpg" alt="" title="" /><span class="title"></span></li>
+
+	
+</ul>

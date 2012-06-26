@@ -1,0 +1,9 @@
+---
+layout: page
+title: Page not here
+---
+
+
+<h2>I am sorry you came looking for something that isn't here anymore. Things change, people move on. Just look at the fate of the Space Shuttle. Now tucked into museums for all of eternity.</h2>
+
+<img src="/a/1457.jpg" alt="Some Machines" title="" width="800" height="533">

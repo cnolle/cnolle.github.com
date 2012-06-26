@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<!--[if lt IE 7 ]> <html lang="en" class="ie6 legacy-ie"> <![endif]-->
+<!--[if IE 7 ]>    <html lang="en" class="ie7 legacy-ie"> <![endif]-->
+<!--[if IE 8 ]>    <html lang="en" class="ie8 legacy-ie"> <![endif]-->
+<!--[if IE 9 ]>    <html lang="en" class="ie9"> <![endif]-->
+<!--[if (gt IE 9)|!(IE)]><!--> <html lang="en"> <!--<![endif]-->
+<head>
+	
+	<meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7, IE=9" /> 
+	
+	<meta charset="utf-8" />
+		
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	 
+	 <title>{{ page.title }} - {{site.main_title}}</title> 
+
+	<link rel="stylesheet" href="/c/screen.css">
+
+	<meta name="google-site-verification" content="Af3ZSwYuukSSRmZHr1O_3lw4eI58sdEwABlMugeWS4k" />
+	<link rel="Shortcut Icon" href="/a/favicon.ico" type="image/x-icon" />
+	
+	<meta name="copyright" content="Good Caesar Limited" /> 
+	<meta name="MSSmartTagsPreventParsing" content="true" />  
+
+	{% if page.description %}
+	<meta name="description" content="{{page.description}}" />
+	{% else %}
+	<meta name="description" content="{{site.description}}" />
+	{% endif %}
+	
+	<meta name="robots" content="{{ page.meta-robots }}" />
+
+	<link rel="alternate" type="application/rss+xml" title="Christian Nolle's RSS feed" href="http://cnolle.com/feed.xml" />
+	<meta http-equiv="imagetoolbar" content="false" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+
+	<!-- DUBLIN CORE -->
+	<meta name="dc.creator" content="Good Caesar Limited" /> 
+	<meta name="dc.publisher" content="Good Caesar Limited" /> 
+
+	<script type="text/javascript" src="http://use.typekit.com/cyk8vun.js"></script>
+	<script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+ 
+ <!--[if lt IE 9]>
+ 	<script src="//html5shiv.googlecode.com/svn/trunk/html5.js" onload="window.ieshiv=true;"></script>
+ <![endif]-->
+ 
+</head> 
+
+<body>

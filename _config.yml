@@ -1,0 +1,9 @@
+pygments: true
+permalink: /:categories/:title
+url: http://cnolle.com
+main_title: Christian Nolle
+include: [a, c, j]
+description: Young International Worker
+use_tex: true
+plugins: ./_plugins
+imageurl: http://cnolle.s3.amazonaws.com/cnolle.com/material

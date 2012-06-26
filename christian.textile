@@ -1,0 +1,9 @@
+---
+layout: page
+title: Christian, Worker
+---
+
+<img src="/a/9210.jpg" alt="" title="" width="1024" height="683" />
+<span class="title">New York, 2009</span>
+
+h2. Christian Nolle hails from the kingdom of Denmark and currently divides his time between Europe and the Far East. This website contains photographs that span a few decades - some elaborate multi year projects others spur of the moment constellations.

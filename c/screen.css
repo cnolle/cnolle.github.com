@@ -1,0 +1,520 @@
+/* @override 
+	http://cnolle.localhost/c/screen.css
+	http://nollegit.localhost/c/screen.css */
+
+/* 
+html5doctor.com Reset Stylesheet v1.4.1 
+Author: Richard Clark - http://richclarkdesign.com
+*/
+
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure, 
+footer, header, hgroup, menu, meter, nav, section, summary,
+time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+	list-style: none;
+    outline:0;
+    font-size:100%;
+	font-weight: normal;
+    vertical-align:baseline;
+    background:transparent;
+    -webkit-appearance: none;
+}
+body {
+    line-height:1;
+}
+article,aside,canvas,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section,summary { 
+    display:block;
+}
+nav ul {
+    list-style:none;
+}
+blockquote, q {
+    quotes:none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content:'';
+    content:none;
+}
+meter {
+    -webkit-appearance: 
+}
+a {
+    margin:0;
+    padding:0;
+    border:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+ins {
+    background-color:#ff9;
+    color:#000;
+    text-decoration:none;
+}
+mark {
+    background-color:#ff9;
+    color:#000; 
+    font-style:italic;
+    font-weight:bold;
+}
+del {
+    text-decoration: line-through;
+}
+abbr[title], dfn[title] {
+    border-bottom:1px dotted #000;
+    cursor:help;
+}
+table {
+    border-collapse:collapse;
+    border-spacing:0;
+}
+hr {
+    display:block;
+    height:1px;
+    border:0;   
+    border-top:1px solid #cccccc;
+    margin:1em 0;
+    padding:0;
+}
+input, select {
+    vertical-align:middle;
+}
+.clearfix:before, .clearfix:after { content: ""; display: table; }
+.clearfix:after { clear: both; }
+.clearfix { zoom: 1; }
+
+
+/* WEBSITE STARTS HERE */
+
+img {
+	max-width: 100%;
+	height: auto;
+}
+
+body {
+	background:#fff;
+	font-family:"lemonde-journal-1","lemonde-journal-2", georgia,serif;
+	color: #222;
+	line-height:1.55;
+}
+
+a.skip {
+   position: absolute;
+   left: -999em;
+}
+
+
+/* SELECTORS */
+
+a {
+	color: #222;
+	text-decoration:none;
+}
+
+	a:hover {
+		color: #00a651;
+	}
+
+/* FRONTPAGE */
+
+#bordering {
+	background:#fcf9f2;
+	margin: 1em;
+	padding: 1em;
+	max-width: 100%;
+	max-height: 100%;
+}
+
+section {
+	max-width: 960px;
+	margin: 1em auto;
+}
+
+article#home h1 a {
+	background:url(../a/home.png) no-repeat center center;
+	width: 302px;
+	display:block;
+	height: 302px;
+	text-indent:-999em;
+}
+
+article.panel {
+	width: 302px;
+	float: left;
+	text-align:center;
+	margin: 0 20px 20px 0;
+	position: relative;
+}
+
+	article.panel h4 {
+		font-size: 0.8em;
+		text-transform:uppercase;
+	}
+	
+	article.panel p {
+		font-size: 0.7em;
+	}
+
+	article.panel:nth-of-type(3n),
+	article.panel.last {
+		margin-right:0;
+	}
+	
+	article#blank.panel {
+		width: 302px;
+		height: 302px;
+		text-align:center;
+		display:block;
+		background:url(/a/blank.png) no-repeat center center;
+	}
+	
+	article#blank ul {
+		color: #fff;
+		margin: 7em 0;
+	}
+		
+	article#blank a {
+		color: #fff;
+	}
+
+/* FOOTER */	
+	
+footer {
+	padding: 1em 0;
+	text-align:center;
+}	
+
+	footer ul li {
+		font-size: 0.8em;
+	}
+	
+	footer ul li a:hover{
+		color: #00a651;
+	}
+	
+/* WORK PAGES, SIMPLE */
+
+header#work {
+	width: 100%;
+	height: 100px;
+	position:absolute;
+	top: 0;
+}
+
+header#work h1 a  {
+	background:url(/a/home-small.png) no-repeat center center;
+	margin: 10px 0 0 10px;
+	width: 75px;
+	text-indent:-999em;
+	height: 75px;
+	float: left;
+	display:block;
+}
+
+header .work-nav {
+	background: #f5f5f5;
+	position:absolute;
+	top: 20px;
+	right: 20px;
+	z-index:100;
+}
+
+	header ul li.nav-current a {
+		font-weight:bold;
+	}
+
+/* drop down menu formatting when all menu items won't fit in a single line */
+.nav-work {
+	position:absolute;
+	top: 10px;
+	right: 10px;
+	z-index:100;	
+	width: 270px;
+	clear: left;
+	margin: 0 0 2em 0;
+}
+.nav-work h3 {
+	z-index:120;
+	position: absolute;
+	left: -999em;
+}
+.nav-work ul {
+   border: 1px solid #e6e6e6;
+}
+.nav-work li {
+   border-bottom: 1px solid #eee;
+}
+
+.nav-work li:last-child {
+   border-bottom: 0;
+}
+.nav-work a {
+	width: 220px;
+	display: block;
+	padding: .2em .4em;
+	text-decoration: none;
+	color: #333;
+}
+.nav-work a:hover {
+   background-color: #f8f8f8;
+}
+.nav-work .nav-current {
+   font-weight: bold;
+}
+
+.nav-work.expanded ul {
+	margin: 0;
+	padding: 0;
+	background:rgba(255,255,255,0.9);
+}
+
+/* drop down menu formatting when all menu items won't fit in a single line */
+.nav-menu .nav-work {
+	margin: 0 0 1.5em;
+	position:absolute;
+	right: 10px;
+	top: 10px;
+	overflow: hidden;
+}
+
+.nav-menu .nav-work h3 {
+   position: absolute;
+   top: 0;
+   left: auto;
+   right: 0px;
+   display: block;
+   width: 2em;
+   height: 2em; 
+   background: #00a651 url(/a/icons.png) no-repeat -208px 50%;
+   text-indent: -999em;
+   cursor: pointer;
+}
+.nav-menu .nav-work.expanded h3 {
+   background-position: -173px 50%;
+}
+.nav-menu .nav-work li {
+   clear: left;
+   display: none;
+}    
+.nav-menu .nav-work.expanded li,
+.nav-menu .nav-work li.nav-current {
+   display: list-item;
+} 
+.nav-menu .nav-work li.nav-current {
+   border-bottom-width: 0;
+}
+.nav-menu .nav-work.expanded li.nav-current {
+   border-bottom-width: 1px;
+}
+
+#totop {
+	width:30px;
+	height: 30px;
+	line-height:2.5;
+	color: #fff;
+	background:#00A651;
+	border-radius:4em;
+	text-align:center;
+	padding:5px;
+	position:fixed; /* this is the magic */
+	bottom:20px; /* together with this to put the div at the bottom*/
+	right:20px;
+	cursor:pointer;
+	display:none;
+	font-size:12px;
+	font-weight:bold;
+}
+
+	.toplink:hover {
+		background: #ccc;
+	}
+	
+	iframe {
+		margin: 0 auto;
+		width: 800px;
+		text-align:center;
+	}	
+
+ul.internalnav {
+	margin-bottom: 2em;
+}
+	
+
+ul.internalnav li.previous{
+	float: left;
+	margin: 0 0 0 2em;
+}
+
+ul.internalnav li.next{
+	float: right;
+	margin: 0 2em 0 0;
+}
+
+section#briefly {
+	text-align:center;
+}
+
+section#page h2 {
+	font-size: 2em;
+}
+
+
+/* Default image slideshow style */
+
+ul#imagelist {
+	margin: 7em 0 0 0;
+	padding: 0;
+	width: 100%;
+	text-align: center;
+	clear: left;
+}
+	ul#imagelist li {
+/*		width: 100%;*/
+		list-style: none;
+		margin: 2.5em auto;
+		display: block;
+		padding: 0 0.5em;
+		position: relative;	
+		height: 100%;
+	}
+
+	ul#imagelist li img{
+		max-width: 100%;
+	}
+	
+	ul#imagelist li span {
+		display:block;
+		font-size: 0.9m;
+		bottom: 0;
+		text-align:center;
+	}
+	
+	ul#imagelist li span.title {
+		font-size: 0.8em;
+		color: #666;
+	}
+	
+	.introcopy {
+		padding: 5em 0 0 0;
+		margin-top: 10em;
+		width: 50em;
+		margin: 0 auto;
+		-webkit-column-count: 2;
+		-moz-column-count: 2;
+		column-count: 2;
+	}
+	
+		.introcopy p {
+			margin-bottom: 1em;
+		}
+	
+	#multicolumnElement {
+
+	}
+	
+#buttons {
+	margin: 0 auto;
+	position:absolute;
+	left: 500px;
+	z-index:200;
+}	
+
+#main h2 {
+	margin-top: 3em;
+	padding: 0 0.5em;
+}
+	
+/* Media queries
+------------------------------ */
+
+@media screen and (min-width: 640px) {
+
+   .nav-work,
+   .nav-work ul {
+      float: left;
+   }
+   .nav-work ul {
+      float: left;
+   }
+   .nav-work li {
+      float: left;
+      font-size: 1em;
+      border-bottom: 0;
+   }   
+   
+}
+
+/*layouts smaller than 600px, iPhone and mobiles*/
+@media handheld and (max-width: 480px), 
+screen and (max-device-width: 480px), 
+screen and (max-width: 600px)  {
+
+	#bordering {
+		margin: 0.2em;
+		padding: 0.2em;
+	}
+
+	header#work h1 a  {
+		margin: 10px auto 0 auto;
+		float: none;
+		position:relative;
+	}
+
+	.nav-menu .nav-work {
+		margin: 0 auto;
+		position:relative;
+		overflow: hidden;
+	}
+	
+	
+	.nav-work a {
+		width: 255px;
+	}
+	
+	
+	ul#imagelist {
+		margin-top: 9em;
+	}
+	
+	article.panel,
+	article.panel:nth-of-type(3n),
+	article.panel.last {
+		margin: 0 auto 2em auto;
+		float: none;
+	}
+
+	article#blank  ul {
+		margin: 0;
+		padding-top: 7em;
+		display:block;
+		
+	}
+
+	ul#imagelist li { 
+	}
+	
+	ul.internalnav li{
+		font-size: 0.9em;
+	}
+		
+
+}
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+	ul#imagelist li { 
+		padding: 0 0.5em;
+	}
+}	

@@ -1,0 +1,44 @@
+{% include header.code %}
+
+<header id="work">
+
+	<h1><a href="/../">{{site.main_title}}</a></h1>
+
+	<div class="nav-work">
+		
+		<h3>Section:</h3>
+	
+		<ul>
+		
+		{% for post in site.categories.work %}
+		{% if page.url == post.url %}
+				<li class="nav-current"><a href="{{ post.url }}">{{ post.title }}</a></li>
+			{% else %}
+				<li><a href="{{ post.url }}">{{ post.title }}</a></li>
+			{% endif %}
+		{% endfor %}
+		
+		</ul>
+	</div><!-- /work-nav -->
+
+</header>
+
+<div id="main" role="main" class="clearfix">
+
+
+		<div class="arrows navtools">
+     		<div class="fake_link left_arrow"></div>
+     		<div class="count"></div>
+     	<div class="fake_link right_arrow"></div>
+     	<div class="explination">&larr; use keystrokes to navigate &rarr;</div>
+     </div>
+						
+	<div class="posts hidden">
+		
+		{{ content }}
+
+	</div>
+    
+</div> <!-- #main -->  
+
+{% include footer.code %}

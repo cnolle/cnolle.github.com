@@ -1,0 +1,24 @@
+---
+layout: rss-feed
+---
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+	<channel>
+		<title>{{ site.name }}</title>
+		<description>{{ site.description }}</description>
+		<link>{{ site.url }}</link>
+		{% for post in site.posts limit:10 %}
+			<item>
+				<title>{{ post.title }}, {{ post.year }}</title>
+				<description>
+					<img src="{{ post.thumbnail }}" width="302" height="302" title="{{ post.title }}" />
+					
+					{{ post.description }}
+					
+					</description>
+				<published>{{ post.date }}</published>
+				<link>{{ site.url }}{{ post.url }}</link>
+			</item>
+		{% endfor %}
+	</channel>
+</rss>

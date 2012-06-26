@@ -1,0 +1,32 @@
+<footer>
+	
+	<ul>
+		<li>Copyright &copy; 1995&#8211;2012</li>
+		<li>Contact <a href="mailto:me@cnolle.com">me@cnolle.com</a></li>
+		<li>Telephone +44 (0) 7966 37 87 65</li>
+		<li><a href="/feed.xml">Subscribe via RSS</a> | <a href="http://twitter.com/briefly">On Twitter</a></li>
+	</ul>
+	
+</footer>
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.js"></script>
+<script>window.jQuery || document.write('<script src="/j/jquery.js">\x3C/script>')</script>
+<script language="javascript" type="text/javascript" src="/j/respond.js"></script>		
+<script language="javascript" type="text/javascript" src="/j/screen.js"></script>
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-599200-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(ga);
+  })();
+
+</script>
+
+</body>
+</html>
