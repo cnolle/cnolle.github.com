@@ -1,6 +1,6 @@
 pygments: true
 permalink: /:categories/:title
-url: http://cnolle.com
+url: http://cnolle.github.com
 main_title: Christian Nolle
 include: [a, c, j]
 description: Young International Worker
