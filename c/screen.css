@@ -436,6 +436,13 @@ ul#imagelist {
 	margin-top: 3em;
 	padding: 0 0.5em;
 }
+
+iframe {
+	padding:0 auto;
+	margin:auto 0;
+	text-align:center;
+}
+
 	
 /* Media queries
 ------------------------------ */

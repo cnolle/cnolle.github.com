@@ -2,6 +2,7 @@
 layout: work
 title: Some Nippon Adventure
 thumbnail: teaser/nippon.png
+description: Across Japan, by and large
 year: 2009
 ---
 
@@ -49,6 +50,7 @@ year: 2009
 
 <li class="nav1567"><img src="{{ site.imageurl }}/nippon/1567.jpg" alt="" title="" /><span class="title"></span></li>
 
+<li class="film"><iframe src="http://player.vimeo.com/video/11072032?title=0&amp;byline=0&amp;portrait=0&amp;color=00a651" width="800" height="450" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe><span>Industry and plastic [01.16]</span></li>
+
 </ul>
 
-<iframe src="http://player.vimeo.com/video/11072032?title=0&amp;byline=0&amp;portrait=0&amp;color=00a651" width="800" height="450" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
