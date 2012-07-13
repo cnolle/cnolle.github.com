@@ -164,6 +164,11 @@ article.panel {
 		text-transform:uppercase;
 	}
 	
+	article.panel h4 span {
+		padding-left: 1em;
+		color: #ff0000;
+	}
+	
 	article.panel p {
 		font-size: 0.7em;
 	}
@@ -367,10 +372,14 @@ section#briefly {
 	text-align:center;
 }
 
-section#page h2 {
+body#christian section#page h2 {
 	font-size: 2em;
+	margin-top: 10em;
 }
 
+body#christian {
+	background:url(../a/wheels.png) top left no-repeat fixed;
+}
 
 /* Default image slideshow style */
 

@@ -1,6 +1,6 @@
 ---
 layout: work
-title: Heathrow One
+title: Heathrow
 thumbnail: teaser/heathrow.png
 year: 2008
 description: Adventures in and around London's premier airport
