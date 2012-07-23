@@ -16,5 +16,4 @@ year: 2005
 
 	<li><img src="{{ site.imageurl }}/eur/sculpture.jpg" alt="" title="" /><span class="title"></span></li>
 
-	
 </ul>

@@ -1,0 +1,45 @@
+---
+layout: work
+title: Point of Approach
+thumbnail: teaser/point.png
+year: 2007
+category: work
+status: Updated
+permalink: /poa
+class: poa
+---
+
+<p></p>
+notextile. <div class="introcopy clearfix">
+
+ 	<p>There is something intrinsically fascinating in lifting your head or looking out the window and spotting an aircraft and wondering where it is coming from or how many people are onboard. Point of Approach spells out this wonderment by combining a photographic ‘glimpse’ of flying metal* with as much publicly available information about each and every aircraft as photographed through the window of a South-London apartment on <em>one</em> November day.</p>
+	
+	<p>Aircrafts flying over London are a very common sight, but only if the wind is blowing from a westerly direction†. One can see them as they exit their holding patterns around London to align themselves with the runways at Heathrow, one every two minutes from 04:00 to 23:00‡.</p>
+
+	<p>These four volumes contain all aircrafts from one day, even those that were missed, either because they were hiding in the clouds or flying past outside my field of vision. Six hundred and fifty one in total, an average day in the life of Heathrow, like any other.</p>
+	
+	<small>* Referring to aircrafts as flying metal is a slightly misconstrued notion. Increasingly modern airliners are built around a carbon reinforced plastic (CRFP) fuselage, which is much lighter and more durable than traditional aluminium.</small>
+	<small>† It does so approximately 60% of the year, especially in the fall and winter.</small>
+	<small>‡ Heathrow’s night curfew starts at midnight and ends around 04:30.</small>
+
+notextile. </div><!-- /introcopy -->
+
+<ul id="slideshow">
+	<li><img src="{{ site.imageurl }}/point/poa_slideshow2.jpg" width="800" height="533" /></li>
+	<li><img src="{{ site.imageurl }}/point/poa_slideshow5.jpg" width="800" height="533" /></li>
+	<li><img src="{{ site.imageurl }}/point/poa_slideshow8.jpg" width="800" height="533" /></li>
+</ul>
+
+<ul id="imagelist">
+	<li><iframe src="http://player.vimeo.com/video/46181240?title=0&amp;byline=0&amp;portrait=0" width="960" height="460" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe><small>A whole day of arrivals in less than 2 mins</small>
+	</li>
+	
+	<li><img src="{{ site.imageurl }}/point/poa-books.jpg" width="800" height="800" /><small>Point of Approach, 1320 pages in four volumes</small></li>
+
+	<li><img src="{{ site.imageurl }}/point/poa-spread1.jpg" width="800" /><small>Double page spread from Volume I</small></li>
+
+	<li><img src="{{ site.imageurl }}/point/poa-data-spread.jpg" width="800" /><small>Overview of the data page</small></li>
+	
+	<li><img src="{{ site.imageurl }}/point/poa-poster.jpg"><small>The poster, A0. <a href="http://cnolle.s3.amazonaws.com/cnolle.com/material/point/poa-poster-72.pdf">Download PDF version</a></li>
+</ul>
+

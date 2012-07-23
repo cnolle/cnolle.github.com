@@ -34,4 +34,7 @@ notextile. </div>
 	<li><img src="{{ site.imageurl }}/polygon/1088.jpg" width="960" height="529" alt="" /><span class="title">Waypoint D082S, 189&#186; to London City Airport</span></li>
 
 	<li><img src="{{ site.imageurl }}/polygon/1089.jpg" width="960" height="540" alt="" /><span class="title">Waypoint BKY08, 72&#186; to Stansted Airport.</span></li>
+
+	<li><iframe width='960' height='800' frameBorder='0' src='http://a.tiles.mapbox.com/v3/goodcaesar.london-polygon.html#10/51.553/-0.316'></iframe><small>Map of the cycle routes and corresponding waypoints</small></li>
+
 </ul>

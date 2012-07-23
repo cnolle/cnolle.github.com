@@ -128,6 +128,29 @@ a {
 		color: #00a651;
 	}
 
+/* Updaes */
+
+.updates {
+	margin: 0 0 2em 0;
+	border-radius:0.2em;	
+	padding: 0 0 1em 0;
+	color: #222;
+	border-bottom: 1px solid #00a651;
+}
+
+	.updates p {
+		font-size: 0.8em;
+	}
+
+	.updates span.date {
+		font-weight:bold;
+	}
+
+	.updates a {
+		text-decoration:underline;
+/*		color: #00a651;*/
+	}
+
 /* FRONTPAGE */
 
 #bordering {
@@ -166,6 +189,7 @@ article.panel {
 	
 	article.panel h4 span {
 		padding-left: 1em;
+		font-size: 0.8em;
 		color: #ff0000;
 	}
 	
@@ -381,6 +405,20 @@ body#christian {
 	background:url(../a/wheels.png) top left no-repeat fixed;
 }
 
+/*body#poa footer {
+	padding: 0 0 300px 0;
+	background:url(../a/poa-footer.gif) bottom left no-repeat fixed;
+}*/
+
+
+/* Slideshow */
+
+ul#slideshow {
+	text-align:center;
+	margin: 0 auto;
+}
+
+
 /* Default image slideshow style */
 
 ul#imagelist {
@@ -416,18 +454,43 @@ ul#imagelist {
 		color: #666;
 	}
 	
+	ul#imagelist li small {
+		display:block;
+		font-size: 0.8em;
+		color: #666;
+	}
+	
+	ul#imagelist li small span.caps {
+		display:inline;
+	}
+	
 	.introcopy {
 		padding: 5em 0 0 0;
 		margin-top: 10em;
-		width: 50em;
+		max-width: 40em;
 		margin: 0 auto;
-		-webkit-column-count: 2;
-		-moz-column-count: 2;
-		column-count: 2;
 	}
+	
+		.col1 {
+			float: left;
+			width: 400px;
+			margin-right:15px;
+		}
+		
+		.col2 {
+			vertical-align:top;
+			width: 400px;
+			float: right;
+			margin-left: 15px;
+		}
 	
 		.introcopy p {
 			margin-bottom: 1em;
+		}
+		
+		.introcopy p small {
+			font-size: 0.7em;
+			line-height:0;
 		}
 	
 	#multicolumnElement {
@@ -477,6 +540,10 @@ iframe {
 @media handheld and (max-width: 480px), 
 screen and (max-device-width: 480px), 
 screen and (max-width: 600px)  {
+
+	.introcopy {
+		margin: 5em 0.5em 1em 0.5em;
+	}
 
 	#bordering {
 		margin: 0.2em;
