@@ -133,9 +133,9 @@ a {
 .updates {
 	margin: 0 0 2em 0;
 	border-radius:0.2em;	
-	padding: 0 0 1em 0;
+	padding: 0.5em;
 	color: #222;
-	border-bottom: 1px solid #00a651;
+	background:#fff;
 }
 
 	.updates p {
