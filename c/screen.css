@@ -174,6 +174,8 @@ article#home h1 a {
 	text-indent:-999em;
 }
 
+
+
 article.panel {
 	width: 302px;
 	float: left;
@@ -209,6 +211,37 @@ article.panel {
 		display:block;
 		background:url(/a/blank.png) no-repeat center center;
 	}
+	
+	.green {
+		background:url(/a/blank.png) no-repeat center center;
+		width: 302px;
+		height: 302px;
+		position:relative;
+		
+	}
+	
+	article#news {
+		text-align:center;
+		display:block;
+		float: left;
+	}
+	
+	article#news p {
+		width: 260px;
+		margin: 0 auto;
+		color: #fff;
+		padding: 8em 0 0 0;
+		font-size: 0.8em;
+	}
+	
+	article#news p span {
+		text-transform:uppercase;
+	}	
+	
+		article#news p a {
+			text-decoration:underline;
+			color: #fff;
+		}
 	
 	article#blank ul {
 		color: #fff;
@@ -573,6 +606,7 @@ screen and (max-width: 600px)  {
 	}
 	
 	article.panel,
+	article#news.panel,
 	article.panel:nth-of-type(3n),
 	article.panel.last {
 		margin: 0 auto 2em auto;
