@@ -11,10 +11,10 @@ title: Christian Nolle
 
 <article id="news" class="panel">
 	<div class="green">
-		<p>This Sunday 29 July from 4pm to 5pm I will be providing live commentary on aircrafts approaching Heathrow Airport as part of <a href="http://exhibitionroadshow.co.uk/programme/commissions/graeme-miller">On Air</a>,  <a href="http://www.artsadmin.co.uk/artists/graeme-miller">Graeme Miller's</a> 9 day long continuous commentary on the everyday life of Exhibition Road.</p>
+
+		<p>On Sunday 29 July from 4pm to 5pm I will be providing live commentary on aircrafts approaching Heathrow Airport as part of <a href="http://exhibitionroadshow.co.uk/programme/commissions/graeme-miller">On Air</a>,  <a href="http://www.artsadmin.co.uk/artists/graeme-miller">Graeme Miller's</a> 9 day long continuous commentary on the everyday life of Exhibition Road.</p>
 
 	</div>
-	<h4>News<span>Updated</span></h4>
 </article>
 
 {% for post in site.posts %}
@@ -26,9 +26,6 @@ title: Christian Nolle
     {% else %}
 	<a href="{{ post.url }}"><img src="{{ site.imageurl }}/{{ post.thumbnail }}" width="302" height="302" title="{{ post.title }}" /></a>
 	{% endif %}
-
-
-
 
 	<h4><a href="{{ post.url }}">{{ post.title }}</a>{% if post.status %}<span>{{ post.status }}</span>{% endif %}</h4>
 	<p>{{ post.year }}</p>

@@ -50,4 +50,18 @@ jQuery(function($){
 			
 	$("section article.panel:nth-of-type(3n)").addClass("last");		
 			
+	var map = new L.Map("london_polygon", {
+		center: new L.LatLng(51.5984,-0.184),
+		zoom: 6,
+		minZoom: 7,
+		maxZoom: 16,
+				
+		maxBounds: new L.LatLngBounds(new L.LatLng(51.9104,-0.7539), new L.LatLng(51.0845,0.4312))
+	});
+	var url = "http://a.tiles.mapbox.com/v3/goodcaesar.london-polygon.jsonp";
+	wax.tilejson(url, function(tilejson) {
+		map.addLayer(new wax.leaf.connector(tilejson));
+	});		
+			
+			
 });

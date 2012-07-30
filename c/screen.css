@@ -252,6 +252,23 @@ article.panel {
 		color: #fff;
 	}
 
+/* LONDON POLYGON */	
+
+#london_polygon {
+	margin: 0 auto 2em auto;
+	padding-bottom: 1em;
+}
+
+.caption {
+	width: 960px;
+	margin: 0 auto;
+}
+
+.caption small {
+	display:block;
+	font-size: 12px;
+}
+
 /* FOOTER */	
 	
 footer {

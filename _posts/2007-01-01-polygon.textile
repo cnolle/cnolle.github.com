@@ -4,6 +4,8 @@ title: London Polygon
 thumbnail: teaser/polygon.png
 year: 2007	
 description: Mapping the London air traffic network by bike.
+class: polygon
+map: yes
 ---
 
 notextile. <div class="introcopy">
@@ -35,6 +37,11 @@ notextile. </div>
 
 	<li><img src="{{ site.imageurl }}/polygon/1089.jpg" width="960" height="540" alt="" /><span class="title">Waypoint BKY08, 72&#186; to Stansted Airport.</span></li>
 
-	<li><iframe width='960' height='800' frameBorder='0' src='http://a.tiles.mapbox.com/v3/goodcaesar.london-polygon.html#10/51.553/-0.316'></iframe><small>Map of the cycle routes and corresponding waypoints</small></li>
+	<li>    </li>
 
 </ul>
+
+<div id="london_polygon" style="width: 960px; height: 1300px">Javascript not enabled</div>
+<div class="caption"><p>London Polygon was mapped on a bike - tracked by GPS. Explore the map above for the routes undertaken while visiting the various waypoints spread across Greater London.</p>
+<small>Map designed in <a href="http://tilemill.com">TileMill</a> - hosted by MapBox/Leaflet</small>
+</div>
