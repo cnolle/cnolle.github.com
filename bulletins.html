@@ -1,0 +1,19 @@
+---
+layout: listing
+title: Bulletins
+permalink: /bulletins
+---
+		
+<section id="listing">
+
+<ol>
+
+{% for post in site.categories.bulletins %}
+
+	<li><a href="{{ post.url }}">{{ post.title }} ({{ post.content | number_of_words }} words, {{ post.date | date_to_string }})</li>
+
+{% endfor %}
+
+</ol>
+          
+</section>

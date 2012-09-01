@@ -10,8 +10,8 @@
 	
 		<ul>
 		
-		{% for post in site.posts %}
-		
+		{% for post in site.categories.work %}
+				
 			{% if post.external %}
 	
 				{% if page.url == post.url %}
@@ -44,13 +44,13 @@
 	<div id="totop">TOP</div>  
   
 <ul class="internalnav">
-{% for post in site.posts %}
+{% for post in site.categories.work %}
 {% if post.url == page.url %}
 {% assign post_index0 = forloop.index0 %}
 {% assign post_index1 = forloop.index %}
 {% endif %}
 {% endfor %}
-{% for post in site.posts %}
+{% for post in site.categories.work %}
 {% if post_index0 == forloop.index %}
 {% assign next_post = post.url %}
 {% assign next_post_title = post.title %}

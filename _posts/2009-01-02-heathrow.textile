@@ -1,6 +1,8 @@
 ---
 layout: work
+category: work
 title: Heathrow
+permalink: /heathrow
 thumbnail: teaser/heathrow.png
 year: 1999&#8211;2009
 description: Adventures in and around London's premier airport

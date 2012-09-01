@@ -1,5 +1,7 @@
 ---
 layout: work
+category: work
+permalink: /eur
 title: E.U.R
 thumbnail: teaser/eur.png
 year: 2005

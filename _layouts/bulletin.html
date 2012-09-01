@@ -1,0 +1,31 @@
+{% include header.code %}
+
+<div id="bordering">
+
+	<header id="bulletins">
+	
+		<h1><a href="/../">{{site.main_title}}</a></h1>
+			
+		<h2><a href="/bulletins">Bulletins</a></h2>
+		
+	</header>
+	
+	<section id="bulletins">
+	
+		<div class="insider">
+	
+			<h1>{{ page.title }}</h1>
+			<time>{{ page.date | date_to_string }}</time>
+	
+			{{ content }}
+	
+		</div><!-- /insider -->
+	
+	</section><!-- /bulletins -->
+	
+</div><!-- /bordering -->	
+
+{% include footer.code %}
+
+</body> 
+</html>

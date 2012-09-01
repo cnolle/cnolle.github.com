@@ -293,6 +293,7 @@ header#work {
 	top: 0;
 }
 
+
 header#work h1 a  {
 	background:url(/a/home-small.png) no-repeat center center;
 	margin: 10px 0 0 10px;
@@ -302,6 +303,30 @@ header#work h1 a  {
 	float: left;
 	display:block;
 }
+
+header#bulletins {
+	width:auto;
+	height: 100px;
+	top: 0;
+}
+	
+	header#bulletins h2 {
+		float: right;
+		margin: 1em;
+		font-size: 1.8em;
+		text-transform:uppercase;
+	}
+	
+	
+	header#bulletins h1 a  {
+		background:url(/a/home-small.png) no-repeat center center;
+		margin: 10px 0 0 10px;
+		width: 75px;
+		text-indent:-999em;
+		height: 75px;
+		float: left;
+		display:block;
+	}
 
 header .work-nav {
 	background: #f5f5f5;
@@ -565,6 +590,58 @@ iframe {
 	text-align:center;
 }
 
+	
+/* BULLETINS */	
+	
+section#bulletins {
+	max-width: 50em;
+	margin:0 auto 0;
+}	
+
+#section#bulletins .insider {
+	max-width:40em;
+}
+
+section#bulletins h1 {
+	font-size: 2.2em;
+	line-height:1;
+	margin-bottom: 0.2em;
+}
+	
+	section#bulletins p {
+		margin-bottom: 1em;
+	}
+	
+	section#bulletins ol {
+		padding-left: 1em;
+		margin: 1em 0;
+	}
+	
+	time {
+		font-weight:700;
+		margin-bottom: 0.5em;
+		display:block;
+	}
+	
+	section#bulletins ol li {
+		list-style:decimal;
+	}
+	
+	section#bulletins blockquote {
+		margin: 1em 0;
+		padding:0 0 0 1em;
+		border-left: 10px solid #00A651;
+	}
+	
+section#listing ol {
+	list-style:decimal;
+}
+
+	section#listing ol li {
+		list-style-position:inside;
+		font-size: 1.7em;
+		list-style:decimal;
+	}
 	
 /* Media queries
 ------------------------------ */
