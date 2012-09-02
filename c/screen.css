@@ -175,6 +175,9 @@ article#home h1 a {
 }
 
 
+article#home.panel h4 {
+	margin-top: 0.5em;
+}
 
 article.panel {
 	width: 302px;
@@ -634,13 +637,16 @@ section#bulletins h1 {
 	}
 	
 section#listing ol {
-	list-style:decimal;
+	list-style:none;
 }
 
 	section#listing ol li {
-		list-style-position:inside;
 		font-size: 1.7em;
-		list-style:decimal;
+		list-style:none;
+	}
+	
+	section ol li a span {
+		color: #00A651;
 	}
 	
 /* Media queries
@@ -719,6 +725,15 @@ screen and (max-width: 600px)  {
 	
 	ul.internalnav li{
 		font-size: 0.9em;
+	}
+	
+	section#listing ol li {
+		margin-bottom: 0.5em;
+		font-size: 1.2em;
+	}
+	
+	section#listing ol li span {
+		display:block;
 	}
 		
 

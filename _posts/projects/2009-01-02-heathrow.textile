@@ -30,7 +30,7 @@ description: Adventures in and around London's premier airport
 	
 	<li><img src="{{ site.imageurl }}/heathrow-one/spectators_balcony.jpg" ow="1024" oh="781" /></li>
 	
-	<li><img src="{{ site.imageurl }}/heathrow-one/tankstation_BA744.jpg" ow="826" oh="1024" /></li>
+	<li><img src="{{ site.imageurl }}/heathrow-one/tankstation_ba744.jpg" alt="tankstation ba744" title="" /></li>
 	
 	<li><img src="{{ site.imageurl }}/heathrow-one/trunk_singapore.jpg" ow="1024" oh="830" /></li>
 	

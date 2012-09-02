@@ -37,7 +37,6 @@ notextile. </div>
    
    <li class="nav1151"><img src="{{ site.imageurl }}/heathrow-one/1151.jpg" alt="trunk singapore" title="" /><span class="title"></span></li>
    
-   <li class="nav1152"><img src="{{ site.imageurl }}/heathrow-one/1152.jpg" alt="tankstation ba744" title="" /><span class="title"></span></li>
    
    <li class="nav1153"><img src="{{ site.imageurl }}/heathrow-one/1153.jpg" alt="through tree" title="" /><span class="title"></span></li>
    
