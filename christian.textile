@@ -4,4 +4,4 @@ title: Worker
 class: christian
 ---
 
-h2. Christian Nolle hails from the kingdom of Denmark and currently divides his time between Europe and the Far East. This website contains photographs that span a few decades - some elaborate multi year projects others spur of the moment constellations.
+h2. Christian Nolle hails from the kingdom of Denmark. This website contains photographs that span a few decades - some elaborate multi year projects others spur of the moment constellations.

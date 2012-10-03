@@ -2,7 +2,6 @@
 layout: work
 category: work
 title: Point of Approach
-permalink: /poa
 thumbnail: teaser/point.png
 year: 2007
 category: work

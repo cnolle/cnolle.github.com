@@ -174,10 +174,22 @@ article#home h1 a {
 	text-indent:-999em;
 }
 
-
 article#home.panel h4 {
-	margin-top: 0.5em;
+	margin-top: 0.3em;
 }
+
+article#home.panel h4 a {
+	padding: 0.3em;
+	border-radius:0.2em;
+	border: 1px solid #fff;
+}
+
+article#home.panel h4 a:hover {
+	
+}
+
+
+
 
 article.panel {
 	width: 302px;
@@ -489,6 +501,12 @@ body#christian {
 }*/
 
 
+section#listing ol li span {
+	display:block;
+	font-size: 1rem;
+}
+
+
 /* Slideshow */
 
 ul#slideshow {
@@ -621,8 +639,10 @@ section#bulletins h1 {
 	}
 	
 	time {
-		font-weight:700;
 		margin-bottom: 0.5em;
+		text-transform:uppercase;
+		letter-spacing:1px;
+		font-size: 0.8rem;
 		display:block;
 	}
 	
@@ -647,6 +667,8 @@ section#listing ol {
 	
 	section ol li a span {
 		color: #00A651;
+		display:block;
+		margin-bottom: 1em;
 	}
 	
 /* Media queries
