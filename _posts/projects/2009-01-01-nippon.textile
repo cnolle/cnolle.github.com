@@ -1,7 +1,7 @@
 ---
 layout: work
 category: work
-title: Some Nippon Adventure
+title: All Nippon Adventure
 permalink: /nippon
 thumbnail: teaser/nippon.png
 description: Across Japan, by and large
