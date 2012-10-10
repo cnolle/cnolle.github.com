@@ -18,7 +18,8 @@ This project is a document of the waypoints within the Greater London Airspace, 
 
 Each waypoint has no corresponding building, structure or even transmitter on the ground. It only exists as a five character name associated with longitude and latitude coordinates. It is a phantom.
 
-I have visited fifty-four waypoints situated within the polygon by biking through the streets of London using a GPS unit taped onto my bicycle to pin-point my way to their location.
+Over a two-month period fifty-four waypoints were visited situated within London Polygon by biking through the streets of London using a GPS unit 
+for direction taped to a bicycle.
 
 This book contains photographs from each of these waypoints, positioned on the page as they relate to their associated airport, and starting the furthest North.
 

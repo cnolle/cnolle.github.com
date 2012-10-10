@@ -546,8 +546,10 @@ ul#imagelist {
 	}
 	
 	ul#imagelist li span.title {
-		font-size: 0.8em;
+		font-size: 0.9em;
 		color: #666;
+		font-weight:500;
+		font-family:"freight-sans-pro-1","freight-sans-pro-2",helvetica,arial,sans-serif;
 	}
 	
 	ul#imagelist li small {

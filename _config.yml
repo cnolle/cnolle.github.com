@@ -5,5 +5,6 @@ main_title: Christian Nolle
 include: [a, c, j]
 description: Young International Worker. Christian Nolle hails from the kingdom of Denmark. This website contains photographs that span a few decades – some elaborate multi year projects others spur of the moment constellations.
 use_tex: true
+auto: true
 plugins: ./_plugins
 imageurl: http://src.sencha.io/http://cnolle.s3.amazonaws.com/cnolle.com/material
