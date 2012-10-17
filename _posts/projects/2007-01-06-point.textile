@@ -32,7 +32,8 @@ notextile. </div><!-- /introcopy -->
 </ul>
 
 <ul id="imagelist">
-	<li><iframe src="http://player.vimeo.com/video/46181240?title=0&amp;byline=0&amp;portrait=0" width="960" height="460" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe><small>A whole day of arrivals in less than 2 mins</small>
+	<li><div class="videoframe"><iframe src="http://player.vimeo.com/video/46181240?title=0&amp;byline=0&amp;portrait=0" width="960" height="460" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe><small>A whole day of arrivals in less than 2 mins</small>
+	</div>
 	</li>
 	
 	<li><img src="{{ site.imageurl }}/point/poa-books.jpg" width="800" height="800" /><small>Point of Approach, 1320 pages in four volumes</small></li>
