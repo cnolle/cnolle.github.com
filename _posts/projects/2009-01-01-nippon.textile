@@ -7,6 +7,7 @@ thumbnail: teaser/nippon.png
 description: Across Japan, by and large
 year: 2009
 map: yes
+status: Updated
 ---
 
 <div id="map" style="width: 100%; height: 600px">Javascript not enabled</div>
@@ -60,16 +61,7 @@ map: yes
 </ul>
 
 <script>
-  mapbox.auto('map', 'goodcaesar.ana_map');
-</script>
-
-<script>
-    mapbox.load('goodcaesar.ana_map', function(o) {
-        var map = mapbox.map('map');
-        map.addLayer(o.layer).zoom(6).center({ lat: 136.9226, lon: 38.4536 });
-		map.setPanLimits([{ lat: 130.144, lon: 34.5066 }, { lat: 143.7671, lon: 41.9023 }]);	
-		//map.ui.zoomer.add();
-		//map.setZoomRange(7, 9);
-        //map.interaction.auto();
-   });
+  var layer = mapbox.layer().id('goodcaesar.ana_map');
+  var map = mapbox.map('map', layer, null, []);
+  map.centerzoom({lat:38.4536 , lon:136.9226 }, 6);
 </script>
