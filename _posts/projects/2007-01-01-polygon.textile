@@ -44,7 +44,25 @@ notextile. </div>
 
 </ul>
 
-<div id="london_polygon" style="width: 960px; height: 1300px">Javascript not enabled</div>
+
+<div id="map" style="width: 100%; height: 1300px">Javascript not enabled</div>
+
 <div class="caption"><p>London Polygon was mapped on a bike - tracked by GPS. Explore the map above for the routes undertaken while visiting the various waypoints spread across Greater London.</p>
+
 <small>Map designed in <a href="http://tilemill.com">TileMill</a> - hosted by MapBox/Leaflet</small>
+
 </div>
+
+<script>
+    mapbox.load('goodcaesar.london_polygon', function(o) {
+        var map = mapbox.map('map');
+        map.addLayer(o.layer).zoom(11).center({ lat: 51.5984, lon: -0.184 });
+		//map.setExtent(new MM.Extent(80, -170, -70, 170));
+
+		map.setPanLimits([{ lat: 51.9104, lon: -0.7539 }, { lat: 51.0845, lon: 0.4312 }]);	
+		map.ui.zoomer.add();
+		map.setZoomRange(10, 14);
+
+        map.interaction.auto();
+    });
+</script>

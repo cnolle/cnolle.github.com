@@ -188,9 +188,6 @@ article#home.panel h4 a:hover {
 	
 }
 
-
-
-
 article.panel {
 	width: 302px;
 	float: left;
@@ -308,16 +305,17 @@ header#work {
 	top: 0;
 }
 
-
-header#work h1 a  {
-	background:url(/a/home-small.png) no-repeat center center;
-	margin: 10px 0 0 10px;
-	width: 75px;
-	text-indent:-999em;
-	height: 75px;
-	float: left;
-	display:block;
-}
+	header#work h1 a  {
+		background:url(/a/home-small.png) no-repeat center center;
+		margin: 10px 0 0 10px;
+		width: 75px;
+		text-indent:-999em;
+		height: 75px;
+		z-index:100;
+		position:relative;
+		float: left;
+		display:block;
+	}
 
 header#bulletins {
 	width:auto;

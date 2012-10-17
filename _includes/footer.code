@@ -13,15 +13,6 @@
 <script>window.jQuery || document.write('<script src="/j/jquery.js">\x3C/script>')</script>
 <script language="javascript" type="text/javascript" src="/j/respond.js"></script>		
 
-{% if page.map %}
-
-	<script src="/j/leaflet.js"></script>
-	<script src="/j/wax.leaf.min.js"></script>
-	<link rel="stylesheet" href="/c/leaflet.css">
-
-{% endif %}
-
-
 <script language="javascript" type="text/javascript" src="/j/screen.js"></script>
 
 <script type="text/javascript">
