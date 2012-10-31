@@ -8,6 +8,18 @@ year: 1999&#8211;2009
 description: Adventures in and around London's premier airport
 ---
 
+notextile. <div class="introcopy">
+
+<p>The unfocused eye scans the grey expanse of sky to locate the lone aircraft – all detail and identification marks have been lost as we watch the daily routine of departures and arrivals. We may no longer care about specific destinations or landings as the subtle blurring of the image opens up a space for day dreaming. Welcome to Heathrow, an airport located in the world’s most heavily trafficked airspace.</p>
+
+<p>Interspersed between the soft monochrome images are sharply rendered colour photos of Heathrow’s perimeter area. It is a space outside the heavily regulated zone of the airport that few bother to visit. It operates as a transition between the utilitarian spaces of the airport and the surrounding suburbs – generating a type of lawless territory where abandoned sofas supply comfort for the exploratory few.</p>
+
+<p>From this area one can observe the landing and departing of aircrafts in their most fragile configuration, with flaps, slats and wheels down – and lights on. Each aircraft is rendered a delicate spectre, ghost-like presences at odds with their material bulk. The mass and dimension of these machines – hunks of metal skeleton carrying hundreds of human cargo – are transformed into a child’s toy.</p>
+
+<p>"Lift head and look above."</p>
+
+notextile. </div>
+
 <ul id="imagelist">
 
 	<li><img src="{{ site.imageurl }}/heathrow-one/747_lookingatyou.jpg" ow="1024" oh="796" /></li>

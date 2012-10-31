@@ -525,7 +525,7 @@ ul#imagelist {
 	ul#imagelist li {
 /*		width: 100%;*/
 		list-style: none;
-		margin: 2.5em auto;
+		margin: 2.5em auto 10em auto;
 		display: block;
 		padding: 0 0.5em;
 		position: relative;	
