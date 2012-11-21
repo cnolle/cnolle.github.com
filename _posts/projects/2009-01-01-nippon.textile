@@ -14,47 +14,45 @@ status: Updated
 
 <ul id="imagelist">
 
-<li class="nav1562"><img src="{{ site.imageurl }}/nippon/_MG_3880.jpg" alt="3880" title="Kyoto" /><span class="title"></span></li>
+<li><img src="{{ site.imageurl }}/nippon/_MG_3880.jpg" alt="3880" title="Kyoto" /><span class="title"></span></li>
 
-<li class="nav1562"><img src="{{ site.imageurl }}/nippon/_MG_2378.jpg" alt="2378" title="Tokyo" /><span class="title"></span></li>
+<li><img src="{{ site.imageurl }}/nippon/_MG_2378.jpg" alt="2378" title="Tokyo" /><span class="title"></span></li>
 
-<li class="nav1563"><img src="{{ site.imageurl }}/nippon/_MG_2451.jpg" alt="2451" title="Shibuya, Tokyo" /><span class="title"></span></li>
+<li><img src="{{ site.imageurl }}/nippon/_MG_2451.jpg" alt="2451" title="Shibuya, Tokyo" /><span class="title"></span></li>
 
-<li class="nav1556"><img src="{{ site.imageurl }}/nippon/_MG_2525.jpg" alt="2525" title="2525" /><span class="title"></span></li>
+<li><img src="{{ site.imageurl }}/nippon/_MG_2525.jpg" alt="2525" title="2525" /><span class="title"></span></li>
 
-<li class="nav1555"><img src="{{ site.imageurl }}/nippon/_MG_2726.jpg" alt="4109" title="Tokyo 4109" /><span class="title"></span></li>
+<li><img src="{{ site.imageurl }}/nippon/_MG_2726.jpg" alt="4109" title="Tokyo 4109" /><span class="title"></span></li>
 
-<li class="nav1558"><img src="{{ site.imageurl }}/nippon/_MG_2972.jpg" alt="2972" title="2972" /><span class="title"></span></li>
+<li><img src="{{ site.imageurl }}/nippon/_MG_2972.jpg" alt="2972" title="2972" /><span class="title"></span></li>
 
-<li class="nav1553"><img src="{{ site.imageurl }}/nippon/_MG_3303.jpg" alt="3303" title="3303" /><span class="title"></span></li>
+<li><img src="{{ site.imageurl }}/nippon/_MG_3303.jpg" alt="3303" title="3303" /><span class="title"></span></li>
 
-<li class="nav1550"><img src="{{ site.imageurl }}/nippon/_MG_4513.jpg" alt="3880" title="4513" /><span class="title"></span></li>
+<li><img src="{{ site.imageurl }}/nippon/_MG_4513.jpg" alt="3880" title="4513" /><span class="title"></span></li>
 
-<li class="nav1564"><img src="{{ site.imageurl }}/nippon/_MG_5828.jpg" alt="5828" title="5828" /><span class="title"></span></li>
+<li><img src="{{ site.imageurl }}/nippon/_MG_5828.jpg" alt="5828" title="5828" /><span class="title"></span></li>
 
-<li class="nav1554"><img src="{{ site.imageurl }}/nippon/_MG_6035.jpg" alt="6035" title="6035" /><span class="title"></span></li>
+<li><img src="{{ site.imageurl }}/nippon/_MG_6035.jpg" alt="6035" title="6035" /><span class="title"></span></li>
 
-<li class="nav1547"><img src="{{ site.imageurl }}/nippon/_MG_6086.jpg" alt="6086" title="6086" /><span class="title"></span></li>
+<li><img src="{{ site.imageurl }}/nippon/_MG_6086.jpg" alt="6086" title="6086" /><span class="title"></span></li>
 
-<li class="nav1560"><img src="{{ site.imageurl }}/nippon/_MG_6213.jpg" alt="6213" title="6213" /><span class="title"></span></li>
+<li><img src="{{ site.imageurl }}/nippon/_MG_6213.jpg" alt="6213" title="6213" /><span class="title"></span></li>
 
-<li class="nav1549"><img src="{{ site.imageurl }}/nippon/_MG_6223.jpg" alt="6223" title="6223" /><span class="title"></span></li>
+<li><img src="{{ site.imageurl }}/nippon/_MG_6223.jpg" alt="6223" title="6223" /><span class="title"></span></li>
 
-<li class="nav1561"><img src="{{ site.imageurl }}/nippon/_MG_6269.jpg" alt="6269" title="6269" /><span class="title"></span></li>
+<li><img src="{{ site.imageurl }}/nippon/_MG_6269.jpg" alt="6269" title="6269" /><span class="title"></span></li>
 
-<li class="nav1548"><img src="{{ site.imageurl }}/nippon/_MG_6451.jpg" alt="6451" title="6451" /><span class="title"></span></li>
+<li><img src="{{ site.imageurl }}/nippon/_MG_6451.jpg" alt="6451" title="6451" /><span class="title"></span></li>
 
-<li class="nav1557"><img src="{{ site.imageurl }}/nippon/_MG_6518.jpg" alt="6518" title="6518" /><span class="title"></span></li>
+<li><img src="{{ site.imageurl }}/nippon/_MG_6518.jpg" alt="6518" title="6518" /><span class="title"></span></li>
 
-<li class="nav1566"><img src="{{ site.imageurl }}/nippon/_MG_6901.jpg" alt="6901" title="6901" /><span class="title"></span></li>
+<li><img src="{{ site.imageurl }}/nippon/_MG_6901.jpg" alt="6901" title="6901" /><span class="title"></span></li>
 
-<li class="nav1559"><img src="{{ site.imageurl }}/nippon/_MG_7044.jpg" alt="7044" title="7044" /><span class="title"></span></li>
+<li><img src="{{ site.imageurl }}/nippon/_MG_7044.jpg" alt="7044" title="7044" /><span class="title"></span></li>
 
-<li class="nav1565"><img src="{{ site.imageurl }}/nippon/_MG_7047.jpg" alt="7047" title="" /><span class="title"></span></li>
+<li><img src="{{ site.imageurl }}/nippon/_MG_7047.jpg" alt="7047" title="" /><span class="title"></span></li>
 
-<li class="nav1551"><img src="{{ site.imageurl }}/nippon/_MG_6795.jpg" alt="6795" title="" /><span class="title"></span></li>
-
-<li class="nav1567"><img src="{{ site.imageurl }}/nippon/1567.jpg" alt="" title="" /><span class="title"></span></li>
+<li><img src="{{ site.imageurl }}/nippon/_MG_6795.jpg" alt="6795" title="" /><span class="title"></span></li>
 
 <li class="film"><div class="videoframe">
 <iframe src="http://player.vimeo.com/video/11072032?title=0&amp;byline=0&amp;portrait=0&amp;color=00a651" width="800" height="450" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe><span>Industry and plastic [01.17]</span></div></li>
