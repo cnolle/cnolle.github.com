@@ -294,7 +294,7 @@ article.panel.round a {
 		
 		p.instructions {
 			position:absolute;
-			z-index: 100;
+			z-index: 10;
 			width: 100%;
 			text-align:center;
 			padding: 1em 0;
