@@ -48,7 +48,7 @@
  	<link href='http://api.tiles.mapbox.com/mapbox.js/v0.6.6/mapbox.css' rel='stylesheet' />
  
  {% endif %}
- 
+  
  <!--[if lt IE 9]>
  	<script src="//html5shiv.googlecode.com/svn/trunk/html5.js" onload="window.ieshiv=true;"></script>
  <![endif]-->

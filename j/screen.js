@@ -10,10 +10,7 @@ jQuery(function($){
 	               
 	         // when the nav wraps under the logo, or when options are stacked, display the nav as a menu              
 	         if ( (nav.offset().top > nav.prev().offset().top) || ($(items[items.length-1]).offset().top > $(items[0]).offset().top) ) {
-	         
-	            // add a class for scoping menu styles
-	            $('body').addClass('nav-menu');
-	            
+				$('body').addClass('nav-menu');
 	         };                    
 	      })
 	   
@@ -49,19 +46,43 @@ jQuery(function($){
 	});
 			
 	$("section article.panel:nth-of-type(3n)").addClass("last");		
-			
-//	var map = new L.Map("london_polygon", {
-//		center: new L.LatLng(51.5984,-0.184),
-//		zoom: 6,
-//		minZoom: 7,
-//		maxZoom: 16,
-//				
-//		maxBounds: new L.LatLngBounds(new L.LatLng(51.9104,-0.7539), new L.LatLng(51.0845,0.4312))
-//	});
-//	var url = "http://a.tiles.mapbox.com/v3/goodcaesar.london_polygon.jsonp";
-//	wax.tilejson(url, function(tilejson) {
-//		map.addLayer(new wax.leaf.connector(tilejson));
-//	});		
-			
-			
-});
+	
+     var elements = $("ul#imagelist li");
+     var next = 0;
+     var max = elements.length;
+     $('a.next').click(function(){
+        if(next+1 < max) {
+            next++;
+            $(window).scrollTo(elements[next], 500, { axis:'y' });
+        }
+     });
+
+     $('a.previous').click(function(){
+        if(next-1 > -1) {
+            next--;
+            $(window).scrollTo(elements[next], 500, { axis:'y' });
+        }
+     });
+	
+	$(document).keyup(function(e){
+		switch( e.keyCode ){
+			case 39:
+
+				if(next+1 < max) {
+				    next++;
+				    $(window).scrollTo(elements[next], 500, { axis:'y' });
+				}
+
+        	break;
+        	case 37://left (<-)
+
+				if(next-1 > -1) {
+				    next--;
+				    $(window).scrollTo(elements[next], 500, { axis:'y' });
+				}
+
+        	break;
+        }
+   });
+	
+}); 	 
