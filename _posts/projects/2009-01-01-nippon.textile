@@ -10,7 +10,8 @@ map: yes
 status: Updated
 ---
 
-<div id="map" style="width: 100%; height: 600px">Javascript not enabled</div>
+<div id="map" style="width: 100%; height: 730px">Javascript not enabled</div>
+
 
 <ul id="imagelist">
 
@@ -54,13 +55,16 @@ status: Updated
 
 <li><img src="{{ site.imageurl }}/nippon/_MG_6795.jpg" alt="6795" title="" /><span class="title"></span></li>
 
-<li class="film"><div class="videoframe">
-<iframe src="http://player.vimeo.com/video/11072032?title=0&amp;byline=0&amp;portrait=0&amp;color=00a651" width="800" height="450" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe><span>Industry and plastic [01.17]</span></div></li>
+<li class="film">
+	<div class="videoframe">
+		<iframe src="http://player.vimeo.com/video/11072032?title=0&amp;byline=0&amp;portrait=0&amp;color=00a651" width="800" height="450" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe><span>Industry and plastic [01.17]</span>
+	</div>
+</li>
 
 </ul>
 
 <script>
   var layer = mapbox.layer().id('goodcaesar.ana_map');
   var map = mapbox.map('map', layer, null, []);
-  map.centerzoom({lat:38.4536 , lon:136.9226 }, 6);
+  map.centerzoom({lat:37.6578 , lon:137.57079999999996 }, 6);
 </script>
