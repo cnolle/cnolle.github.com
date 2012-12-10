@@ -1,7 +1,3 @@
-/* @override 
-	http://cnolle.localhost/c/screen.css
-	http://nollegit.localhost/c/screen.css */
-
 /* 
 html5doctor.com Reset Stylesheet v1.4.1 
 Author: Richard Clark - http://richclarkdesign.com
@@ -128,7 +124,7 @@ a {
 		color: #00a651;
 	}
 
-/* Updaes */
+/* Updates */
 
 .updates {
 	margin: 0 0 2em 0;
@@ -295,6 +291,7 @@ article.panel.round a {
 		p.instructions {
 			position:absolute;
 			z-index: 10;
+			color: #666;
 			width: 100%;
 			text-align:center;
 			padding: 1em 0;
@@ -431,7 +428,6 @@ header#work {
 	      
 	}
 	
-
 header#bulletins {
 	width:auto;
 	height: 100px;
@@ -444,7 +440,6 @@ header#bulletins {
 		font-size: 1.8em;
 		text-transform:uppercase;
 	}
-	
 	
 	header#bulletins h1 a  {
 		background:url(/a/home-small.png) no-repeat center center;
@@ -466,9 +461,9 @@ header .work-nav {
 
 	header ul li.nav-current a {
 		font-weight:bold;
+		background:rgba(255,255,255,0.7);
 	}
 
-/* drop down menu formatting when all menu items won't fit in a single line */
 .nav-work {
 	position:absolute;
 	top: 10px;
@@ -513,7 +508,6 @@ header .work-nav {
 	background:rgba(255,255,255,0.9);
 }
 
-/* drop down menu formatting when all menu items won't fit in a single line */
 .nav-menu .nav-work {
 	margin: 0 0 1.5em;
 	position:absolute;
@@ -786,11 +780,13 @@ section#listing ol {
 		margin-bottom: 1em;
 	}
 	
+li.film {
+	max-width: 1024px;
+}	
 	
 .videoframe {
 	position: relative;
 	padding-bottom: 56.25%; /* 16:9 */
-	padding-top: 25px;
 	height: 0;
 }	
 	
