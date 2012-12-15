@@ -5,7 +5,11 @@ permalink: /eur
 title: E.U.R
 thumbnail: teaser/eur.png
 year: 2005
+map: yes
 ---
+
+<div id="map" style="width: 100%; height: 300px"></div>
+
 <ul id="imagelist">
 
 	<li><img src="{{ site.imageurl }}/eur/green_grass.jpg" alt="" title="" /><span class="title"></span></li>
@@ -19,3 +23,9 @@ year: 2005
 	<li><img src="{{ site.imageurl }}/eur/sculpture.jpg" alt="" title="" /><span class="title"></span></li>
 
 </ul>
+
+<script>
+  var layer = mapbox.layer().id('goodcaesar.rome_eur');
+  var map = mapbox.map('map', layer, null, []);
+  map.centerzoom({lat:41.8253 , lon:12.4667 }, 14);
+</script>
