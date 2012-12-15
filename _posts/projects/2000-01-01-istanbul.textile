@@ -6,7 +6,11 @@ thumbnail: teaser/stan.png
 year: 2000
 permalink: /istanbul
 status: New
+map: yes
 ---
+
+<div id="map" style="width: 100%; height: 400px"></div>
+
 <ul id="imagelist">
 
    <li class="nav1571"><img src="{{ site.imageurl }}/stan/003.jpg" alt="" title="" /><span class="title"></span></li>
@@ -44,3 +48,9 @@ status: New
    <li class="nav1573"><img src="{{ site.imageurl }}/stan/004.jpg" alt="" title="" /><span class="title"></span></li>   
       
 </ul>
+
+<script>
+  var layer = mapbox.layer().id('goodcaesar.istanbul');
+  var map = mapbox.map('map', layer, null, []);
+  map.centerzoom({lat:41.0107 , lon:28.9773 }, 12);
+</script>
