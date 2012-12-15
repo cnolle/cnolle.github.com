@@ -25,22 +25,27 @@ notextile. <div class="introcopy clearfix">
 
 notextile. </div><!-- /introcopy -->
 
-<ul id="slideshow">
-	<li><img src="{{ site.imageurl }}/point/poa_slideshow2.jpg" width="800" height="533" /></li>
-	<li><img src="{{ site.imageurl }}/point/poa_slideshow5.jpg" width="800" height="533" /></li>
-	<li><img src="{{ site.imageurl }}/point/poa_slideshow8.jpg" width="800" height="533" /></li>
-</ul>
-
 <ul id="imagelist">
-	<li><div class="videoframe"><iframe src="http://player.vimeo.com/video/46181240?title=0&amp;byline=0&amp;portrait=0" width="960" height="460" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe><small>A whole day of arrivals in less than 2 mins</small>
+	
+	<li><img src="{{ site.imageurl }}/point/poa-001.jpg" alt="" /></li>
+	<li><img src="{{ site.imageurl }}/point/poa-002.jpg" alt="" /></li>
+	<li><img src="{{ site.imageurl }}/point/poa-003.jpg" alt="" /></li>
+	<li><img src="{{ site.imageurl }}/point/poa-004.jpg" alt="" /></li>
+	<li><img src="{{ site.imageurl }}/point/poa-005.jpg" alt="" /></li>
+	<li><img src="{{ site.imageurl }}/point/poa-006.jpg" alt="" /></li>
+	<li><img src="{{ site.imageurl }}/point/poa-007.jpg" alt="" /></li>
+	<li><img src="{{ site.imageurl }}/point/poa-008.jpg" alt="" /></li>
+	<li><img src="{{ site.imageurl }}/point/poa-009.jpg" alt="" /></li>
+
+	<li class="film"><div class="videoframe"><iframe src="http://player.vimeo.com/video/46181240?title=0&amp;byline=0&amp;portrait=0" width="960" height="460" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe><small>A whole day of arrivals in less than 2 mins</small>
 	</div>
 	</li>
 	
-	<li><img src="{{ site.imageurl }}/point/poa-books.jpg" width="800" height="800" /><small>Point of Approach, 1320 pages in four volumes</small></li>
+	<li><img src="{{ site.imageurl }}/point/poa-books.jpg" /><small>Point of Approach, 1320 pages in four volumes</small></li>
 
-	<li><img src="{{ site.imageurl }}/point/poa-spread1.jpg" width="800" /><small>Double page spread from Volume I</small></li>
+	<li><img src="{{ site.imageurl }}/point/poa-spread1.jpg" /><small>Double page spread from Volume I</small></li>
 
-	<li><img src="{{ site.imageurl }}/point/poa-data-spread.jpg" width="800" /><small>Overview of the data page</small></li>
+	<li><img src="{{ site.imageurl }}/point/poa-data-spread.jpg" /><small>Overview of the data page</small></li>
 	
 	<li><img src="{{ site.imageurl }}/point/poa-poster.jpg"><small>The poster, A0. <a href="http://cnolle.s3.amazonaws.com/cnolle.com/material/point/poa-poster-72.pdf">Download PDF version</a></li>
 </ul>
