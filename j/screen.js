@@ -16,8 +16,10 @@ jQuery(function($){
 	   
 	   // toggle the menu items' visiblity
 	   .find('h3')
+	   //.find('li.nav-current')
 	      .bind('click focus', function(){
 	         $(this).parent().toggleClass('expanded')
+	         e.preventDefault();
 	      });   
 	
 	// ...and update the nav on window events
@@ -38,7 +40,7 @@ jQuery(function($){
 	});
 		
 	$(window).resize(function() {
-		if($(window).width() < 1100) {
+		if($(window).width() < 1200) {
 			$('#totop').fadeOut();
 		} else {
 			$('#totop').fadeIn();
@@ -46,6 +48,8 @@ jQuery(function($){
 	});
 			
 	$("section article.panel:nth-of-type(3n)").addClass("last");		
+	
+	/* Introduce keyboard navigation to the vertical slideshows */
 	
      var elements = $("ul#imagelist li");
      var next = 0;
@@ -66,7 +70,7 @@ jQuery(function($){
 	
 	$(document).keyup(function(e){
 		switch( e.keyCode ){
-			case 39:
+			case 39: // Right
 
 				if(next+1 < max) {
 				    next++;
@@ -74,7 +78,7 @@ jQuery(function($){
 				}
 
         	break;
-        	case 37://left (<-)
+        	case 37:// Left
 
 				if(next-1 > -1) {
 				    next--;

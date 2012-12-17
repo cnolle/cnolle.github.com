@@ -27,5 +27,5 @@ map: yes
 <script>
   var layer = mapbox.layer().id('goodcaesar.rome_eur');
   var map = mapbox.map('map', layer, null, []);
-  map.centerzoom({lat:41.8253 , lon:12.4667 }, 14);
+  map.centerzoom({lat:41.8304 , lon:12.4661 }, 14);
 </script>
