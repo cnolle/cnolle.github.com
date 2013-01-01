@@ -1,2 +1,8 @@
 _site
 material
+cnolle.github.esproj
+*.espressostorage
+
+.DS_Store
+
+*.espressostorage
