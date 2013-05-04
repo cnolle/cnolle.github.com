@@ -5,7 +5,6 @@ title: Istanbul
 thumbnail: teaser/stan.png
 year: 2000
 permalink: /istanbul
-status: New
 map: yes
 ---
 
