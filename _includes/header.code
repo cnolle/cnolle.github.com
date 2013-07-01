@@ -14,6 +14,7 @@
 	 
 	 <title>{{ page.title }} - {{site.main_title}}</title> 
 
+	<link rel="stylesheet" type="text/css" href="//cloud.typography.com/638248/623582/css/fonts.css" />
 	<link rel="stylesheet" href="/c/screen.css">
 
 	<meta name="google-site-verification" content="Af3ZSwYuukSSRmZHr1O_3lw4eI58sdEwABlMugeWS4k" />

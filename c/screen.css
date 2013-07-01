@@ -186,6 +186,9 @@ article#home h1 a {
 
 article#home.panel h4 {
 	margin-top: 0.3em;
+	font-family: 'Sentinel A', 'Sentinel B'; 
+	font-weight: 400; 
+	font-style: normal;	
 }
 
 article#home.panel h4 a {
@@ -244,6 +247,9 @@ article.panel.round a {
 	
 	article.panel p {
 		font-size: 0.7em;
+		font-family: 'Sentinel A', 'Sentinel B'; 
+		font-weight: 400; 
+		font-style: italic;
 	}
 
 	article.panel:nth-of-type(3n),
