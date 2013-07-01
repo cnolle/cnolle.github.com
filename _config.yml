@@ -1,4 +1,3 @@
-pygments: true
 permalink: /:categories/:title
 url: http://cnolle.com
 main_title: Christian Nolle
