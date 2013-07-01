@@ -39,9 +39,6 @@
 	<!-- DUBLIN CORE -->
 	<meta name="dc.creator" content="Good Caesar Limited" /> 
 	<meta name="dc.publisher" content="Good Caesar Limited" /> 
-
-	<script type="text/javascript" src="http://use.typekit.com/cyk8vun.js"></script>
-	<script type="text/javascript">try{Typekit.load(	 );}catch(e){}</script>
     
  
  {% if page.map %}

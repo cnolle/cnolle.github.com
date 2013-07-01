@@ -102,7 +102,11 @@ img {
 
 body {
 	background:#fff;
-	font-family:"lemonde-journal-1","lemonde-journal-2", georgia,serif;
+	
+	font-family: 'Sentinel A', 'Sentinel B'; 
+	font-weight: 400; 
+	font-style: normal;	
+		
 	color: #222;
 	line-height:1.55;
 }
