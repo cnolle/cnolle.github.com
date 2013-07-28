@@ -5,7 +5,6 @@ title: Point of Approach
 thumbnail: teaser/point.png
 year: 2007
 category: work
-status: Updated
 permalink: /poa
 class: poa
 ---

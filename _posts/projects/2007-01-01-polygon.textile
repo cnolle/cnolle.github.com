@@ -45,7 +45,7 @@ notextile. </div>
 </ul>
 
 
-<div id="map" style="width: 100%; height: 1300px">Javascript not enabled</div>
+<div id="map" style="width: 80% height: 800px">Javascript not enabled</div>
 
 <div class="caption"><p>London Polygon was mapped on a bike - tracked by GPS. Explore the map above for the routes undertaken while visiting the various waypoints spread across Greater London.</p>
 

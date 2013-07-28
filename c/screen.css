@@ -1,3 +1,6 @@
+/* @override 
+	http://cnolle.localhost/c/screen.css */
+
 /* 
 html5doctor.com Reset Stylesheet v1.4.1 
 Author: Richard Clark - http://richclarkdesign.com
@@ -666,7 +669,6 @@ ul#imagelist {
 		font-size: 0.9em;
 		color: #666;
 		font-weight:500;
-		font-family:"freight-sans-pro-1","freight-sans-pro-2",helvetica,arial,sans-serif;
 	}
 	
 	ul#imagelist li small {
