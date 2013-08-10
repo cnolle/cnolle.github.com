@@ -382,7 +382,7 @@ article.panel.round a {
 }
 
 .caption {
-	width: 960px;
+	max-width: 960px;
 	margin: 0 auto;
 }
 
@@ -732,6 +732,47 @@ iframe {
 	text-align:center;
 }
 
+/* PPL Teaser
+------------------------------ */
+
+	#ppl-teaser {
+		position:relative;
+		height: 320px;
+	}
+	
+	#ppl-teaser h4 {
+		margin-top: 310px;
+	}
+
+	#ppl-teaser #map-holder {
+		position:relative;				
+		width: 302px;
+		height: 302px;
+		z-index:300;
+		display:block;
+		background: url(../a/circle-clipping.png) no-repeat center center;
+	}
+	
+	#ppl-teaser #map {
+		position:absolute;
+		top: 0;
+		left: 0;
+		z-index:10;
+		display:block;
+	}
+	
+	#ppl-teaser .leaflet-control {
+		display:none;
+	}
+
+/* London Polygon
+------------------------------ */
+
+#map.london-polygon {
+	width: 80%;
+	height: 700px;
+	margin: 0 auto;
+}
 	
 /* BULLETINS */	
 	
@@ -744,7 +785,7 @@ section#bulletins {
 	max-width:40em;
 }
 
-section#bulletins h1 {
+h1 {
 	font-size: 2.2em;
 	line-height:1;
 	margin-bottom: 0.2em;

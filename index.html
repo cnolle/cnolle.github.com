@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Christian Nolle
+mapnew: yes
 ---
 	
 <article id="home" class="panel">
@@ -8,6 +9,16 @@ title: Christian Nolle
 	<h1><a href="christian.html">{{site.main_title}}</a></h1>
 	<h4><a href="bulletins.html">Bulletins</a></h4>
 
+</article>
+
+<article class="panel" id="ppl-teaser">
+
+		<div id="map">
+			<div id="map-holder"></div>			
+		</div>
+
+	<h4>PPL</h4>
+	<p>Soon</p>
 </article>
 
 {% for post in site.categories.work %}
@@ -29,6 +40,19 @@ title: Christian Nolle
 
 <article id="blank" class="panel">
 
-	<!-- /blank -->
-
 </article>
+
+<script>
+	var map = L.map('map')
+    .setView([51.854, -0.093], 12)
+    .addLayer(L.mapbox.tileLayer('goodcaesar.map-u6uou3l9', {
+        detectRetina: true,
+        retinaVersion: 'goodcaesar.map-u6uou3l9',
+        maxZoom: 12,
+        minZoom: 12,
+        zoomControl: false
+    })); 
+	
+	L.control.scale().addTo(map);        
+                                                                        
+</script>

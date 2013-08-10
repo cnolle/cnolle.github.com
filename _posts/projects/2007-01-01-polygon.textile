@@ -12,6 +12,9 @@ map: yes
 
 notextile. <div class="introcopy">
  
+<h1>London Polygon</h1>
+<time>2006</time> 
+ 
 When an aircraft traverses any airspace, anywhere in the world, it never does so in a straight line. An aircraft navigates from one waypoint to another.
 
 This project is a document of the waypoints within the Greater London Airspace, defined as an area starting the furthest North and moving clockwise: Stansted to London City, Gatwick to Heathrow and finally ending at Luton.
@@ -29,27 +32,17 @@ notextile. </div>
 
 <ul id="imagelist">
 	<li><img src="{{ site.imageurl }}/polygon/1079.jpg" width="960" height="500" alt="" /><span class="title">London Polygon, 30&times;30cm, hardcover, 54 plates.</span></li>
-
 	<li><img src="{{ site.imageurl }}/polygon/1084.jpg" width="960" height="526" alt="" /><span class="title">Index page with the 54 waypoints and their location within the Polygon, the area shaped between the five London airports.</span></li>
-
 	<li><img src="{{ site.imageurl }}/polygon/1085.jpg" width="960" height="440" alt="" /><span class="title">Close-up of the index page.</span></li>
-
 	<li><img src="{{ site.imageurl }}/polygon/1086.jpg" width="960" height="461" alt="" /><span class="title">Each photograph is rotated according to the orientation it has to the airport it relates to.</span></li>
-	
 	<li><img src="{{ site.imageurl }}/polygon/1088.jpg" width="960" height="529" alt="" /><span class="title">Waypoint D082S, 189&#186; to London City Airport</span></li>
-
 	<li><img src="{{ site.imageurl }}/polygon/1089.jpg" width="960" height="540" alt="" /><span class="title">Waypoint BKY08, 72&#186; to Stansted Airport.</span></li>
-
-	<li>    </li>
-
 </ul>
 
 
-<div id="map" style="width: 80% height: 800px">Javascript not enabled</div>
+<div id="map" class="london-polygon">Javascript not enabled</div>
 
-<div class="caption"><p>London Polygon was mapped on a bike - tracked by GPS. Explore the map above for the routes undertaken while visiting the various waypoints spread across Greater London.</p>
-
-<small>Map designed in <a href="http://tilemill.com">TileMill</a> - hosted by MapBox/Leaflet</small>
+<div class="caption"><p>London Polygon was mapped on a bike - tracked by GPS. Explore the map above for the routes undertaken while visiting the various waypoints spread across Greater London. Map designed in <a href="http://tilemill.com">TileMill</a> - hosted by MapBox/Leaflet.</p>
 
 </div>
 
