@@ -119,7 +119,6 @@ a.skip {
    left: -999em;
 }
 
-
 /* SELECTORS */
 
 a {
@@ -170,25 +169,17 @@ section#home {
 }
 
 article#home h1 a {
-	background:url(../a/home.png) no-repeat center center;
-	width: 302px;
-	display:block;
-	height: 302px;
-	text-indent:-999em;
+  width: 302px;
+  height: 302px;
+  background-image: url('../a/home.png');
+  display: block;
+  text-indent: -999em;
 }
 
-@media 
-	only screen and (-webkit-min-device-pixel-ratio : 2) and (max-width: 480px),
-	only screen and (min-device-pixel-ratio : 2) and (max-width: 480px) {
-   
-	article#home h1 a {
-		background:url(../a/home-2x.png) no-repeat center center; 
-		-webkit-background-size: 302px 302px;
-		-moz-background-size: 302px 302px;
-		-o-background-size: 302px 302px;
-		background-size: 302px 302px;	
-	} 
-      
+@media (-webkit-min-device-pixel-ratio: 1.5), (min--moz-device-pixel-ratio: 1.5), (-o-min-device-pixel-ratio: 3 / 2), (min-device-pixel-ratio: 1.5), (min-resolution: 1.5dppx) {
+  header#page-top h1 a {
+      background-image: url('../a/home-2x.png');    
+  }
 }
 
 article#home.panel h4 {
@@ -426,21 +417,13 @@ header#work {
 		float: left;
 		display:block;
 	}
-	
-	@media 
-		only screen and (-webkit-min-device-pixel-ratio : 2) and (max-width: 480px),
-		only screen and (min-device-pixel-ratio : 2) and (max-width: 480px) {
-	   
+		
+	@media (-webkit-min-device-pixel-ratio: 1.5), (min--moz-device-pixel-ratio: 1.5), (-o-min-device-pixel-ratio: 3 / 2), (min-device-pixel-ratio: 1.5), (min-resolution: 1.5dppx) {
 		header#work h1 a {
 			background:url(/a/home-small-2x.png) no-repeat center center; 
-			-webkit-background-size: 75px 75px;
-			-moz-background-size: 75px 75px;
-			-o-background-size: 75px 75px;
-			background-size: 75px 75px;	
 		} 
-	      
 	}
-	
+		
 header#bulletins {
 	width:auto;
 	height: 100px;
