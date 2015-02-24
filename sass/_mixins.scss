@@ -1,0 +1,17 @@
+@mixin at2x($image_name, $width, $height, $extention: '.png') {
+	background-image: image_url($image_name + $extention);
+	$x2img : $image_name + '@2x' + $extention;
+ 
+	@media (-webkit-min-device-pixel-ratio: 1.5),
+	     (min--moz-device-pixel-ratio: 1.5),
+	     (-o-min-device-pixel-ratio: 3/2),
+	     (min-device-pixel-ratio: 1.5),
+	     (min-resolution: 1.5dppx) {
+	background-image: image_url($x2img);
+	background-size: $width $height;
+	}
+}
+
+$screen-sm-min:		768px;  // iPad portrait
+$screen-md-min:		992px;  // Small desktop & iPad desktop
+$screen-lg-min:		1200px; // Larger desktop or Laptop screen

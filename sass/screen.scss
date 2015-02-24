@@ -1,55 +1,11 @@
-/* @override 
-	http://cnolle.localhost/c/screen.css */
+/*
+*************************************************
+DUCK
+**************************************************/
 
-/* 
-html5doctor.com Reset Stylesheet v1.4.1 
-Author: Richard Clark - http://richclarkdesign.com
-*/
+@import "bootstrap";
+@import "mixins";
 
-html, body, div, span, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-abbr, address, cite, code,
-del, dfn, em, img, ins, kbd, q, samp,
-small, strong, sub, sup, var,
-b, i,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, figcaption, figure, 
-footer, header, hgroup, menu, meter, nav, section, summary,
-time, mark, audio, video {
-    margin:0;
-    padding:0;
-    border:0;
-	list-style: none;
-    outline:0;
-    font-size:100%;
-	font-weight: normal;
-    vertical-align:baseline;
-    background:transparent;
-    -webkit-appearance: none;
-}
-body {
-    line-height:1;
-}
-article,aside,canvas,details,figcaption,figure,
-footer,header,hgroup,menu,nav,section,summary { 
-    display:block;
-}
-nav ul {
-    list-style:none;
-}
-blockquote, q {
-    quotes:none;
-}
-blockquote:before, blockquote:after,
-q:before, q:after {
-    content:'';
-    content:none;
-}
-meter {
-    -webkit-appearance: 
-}
 a {
     margin:0;
     padding:0;
@@ -94,7 +50,6 @@ input, select {
 .clearfix:before, .clearfix:after { content: ""; display: table; }
 .clearfix:after { clear: both; }
 .clearfix { zoom: 1; }
-
 
 /* WEBSITE STARTS HERE */
 
@@ -169,17 +124,11 @@ section#home {
 }
 
 article#home h1 a {
-  width: 302px;
-  height: 302px;
-  background-image: url('../a/home.png');
-  display: block;
-  text-indent: -999em;
-}
-
-@media (-webkit-min-device-pixel-ratio: 1.5), (min--moz-device-pixel-ratio: 1.5), (-o-min-device-pixel-ratio: 3 / 2), (min-device-pixel-ratio: 1.5), (min-resolution: 1.5dppx) {
-  header#page-top h1 a {
-      background-image: url('../a/home-2x.png');    
-  }
+	width: 302px;
+	height: 302px;	
+	@include at2x('home',302px,302px);
+	display: block;
+	text-indent: -999em;
 }
 
 article#home.panel h4 {
@@ -303,26 +252,11 @@ article.panel.round a {
 		}
 	
 	article#blank.panel {
-		width: 302px;
-		height: 302px;
 		text-align:center;
 		display:block;
-		background:url(/a/plus.png) no-repeat center center;
-	}
-	
-	
-	@media 
-		only screen and (-webkit-min-device-pixel-ratio : 2) and (max-width: 480px),
-		only screen and (min-device-pixel-ratio : 2) and (max-width: 480px) {
-	   
-		article#blank.panel {
-			background:url(../a/plus-2x.png) no-repeat center center; 
-			-webkit-background-size: 302px 302px;
-			-moz-background-size: 302px 302px;
-			-o-background-size: 302px 302px;
-			background-size: 302px 302px;	
-		} 
-	      
+		@include at2x('plus',302px,302px);
+		width: 302px;
+		height: 302px;
 	}
 	
 	.green {
@@ -389,6 +323,12 @@ footer {
 	text-align:center;
 }	
 
+	footer ul {		
+		list-style:none;
+		margin: 0;
+		padding: 0;
+	}
+
 	footer ul li {
 		font-size: 0.8em;
 	}
@@ -407,7 +347,8 @@ header#work {
 }
 
 	header#work h1 a  {
-		background:url(/a/home-small.png) no-repeat center center;
+			
+		@include at2x('home-small',75px,75px);
 		margin: 10px 0 0 10px;
 		width: 75px;
 		text-indent:-999em;
@@ -417,24 +358,7 @@ header#work {
 		float: left;
 		display:block;
 	}
-		
-	@media (-webkit-min-device-pixel-ratio: 1.5), 
-	(min--moz-device-pixel-ratio: 1.5), 
-	(-o-min-device-pixel-ratio: 3 / 2), 
-	(min-device-pixel-ratio: 1.5), 
-	(min-resolution: 1.5dppx) {
 
-		header#work h1 a {
-			width: 75px;
-			height: 75px;
-			display: block;
-			background-size: 75px 75px;
-			-webkit-background-size:75px 75px;
-			-moz-background-size:75px 75px;
-			background:url(/a/home-small-2x.png) no-repeat center center; 
-		} 
-	}
-		
 header#bulletins {
 	width:auto;
 	height: 100px;
@@ -486,10 +410,16 @@ header .work-nav {
 	left: -999em;
 }
 .nav-work ul {
-   border: 1px solid #e6e6e6;
+	margin: 0;
+	padding: 0;
+	border: 1px solid #e6e6e6;
 }
+
 .nav-work li {
-   border-bottom: 1px solid #eee;
+	padding: 0;
+	margin: 0;
+	list-style:none;
+	border-bottom: 1px solid #eee;
 }
 
 .nav-work li:last-child {
@@ -526,6 +456,7 @@ header .work-nav {
 .nav-menu .nav-work h3 {
    position: absolute;
    top: 0;
+   margin: 0;
    left: auto;
    right: 0px;
    display: block;
@@ -582,6 +513,9 @@ header .work-nav {
 	}	
 
 ul.internalnav {
+	list-style:none;
+	margin: 0;
+	padding: 0;
 	margin-bottom: 2em;
 }
 	
@@ -632,7 +566,7 @@ ul#slideshow {
 /* Default image slideshow style */
 
 ul#imagelist {
-	margin: 7em 0 0 0;
+	margin: 9em 0 0 0;
 	padding: 0;
 	width: 100%;
 	text-align: center;
@@ -906,7 +840,7 @@ screen and (max-width: 600px)  {
 	
 	
 	ul#imagelist {
-		margin-top: 9em;
+		margin-top: 11em;
 	}
 	
 	article.panel,
@@ -960,48 +894,4 @@ body {
 
 #section-holder {
 	position:relative;
-}
-
-.scrollsections {
-	position:absolute;
-	top: 0;
-	left: 0;
-	background:#ccc;
-	display: block;
-	position: relative;
-	vertical-align:center;
-	width: 100%;
-	height: 100%;
-}
-
-#scrollsections-navigation {
-  position: fixed;
-  top: 50%;
-  right: 20px;
-  width: 10px;
-  margin-top: -177px;
-  z-index: 100;
-  background: transparent;
-  overflow: hidden;
-}
-.scrollsections-menuitem {
-  position: relative;
-  display: block;
-  height: 40px;
-  width: 10px;
-  overflow: hidden;
-  background: #ffffff;
-  text-indent: -9999px;
-  margin: 0 0 5px 0;
-  cursor: pointer;
-  -webkit-transition: all 0.3s ease 0s;
-  -moz-transition: all 0.3s ease 0s;
-  -o-transition: all 0.3s ease 0s;
-  -ms-transition: all 0.3s ease 0s;
-  transition: all 0.3s ease 0s;
-}
-.scrollsections-menuitem.active-scrollsection {
-  width: 2px;
-  margin-left: 8px;
-  cursor: default;
 }

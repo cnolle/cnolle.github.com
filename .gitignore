@@ -2,7 +2,7 @@ _site
 material
 cnolle.github.esproj
 *.espressostorage
-
+*scssc
 .DS_Store
 
 *.espressostorage

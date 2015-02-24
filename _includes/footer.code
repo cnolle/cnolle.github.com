@@ -11,7 +11,6 @@
 <script language="javascript" type="text/javascript" src="/j/respond.js"></script>		
 <script language="javascript" type="text/javascript" src="/j/jquery.scrollTo-1.4.4.js"></script>
 <script language="javascript" type="text/javascript" src="/j/screen.js"></script> 
-
  
 {% if page.enhanced %}
 <script src="../j/plugins.js"></script>
