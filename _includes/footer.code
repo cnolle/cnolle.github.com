@@ -1,11 +1,9 @@
-<footer>
-	
+<footer>	
 	<ul>
-		<li>Copyright &copy; 1995&#8211;2013</li>
+		<li>Copyright &copy; 1995&#8211;2015</li>
 		<li>Contact <a href="mailto:me@cnolle.com">me@cnolle.com</a></li>
 		<li><a href="/feed.xml" title="Subscribe to the RSS feed">Subscribe via RSS</a> | <a href="http://twitter.com/briefly" title="You can follow me on Twitter">On Twitter</a></li>
-	</ul>
-	
+	</ul>	
 </footer>
 
 <script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.js"></script>
