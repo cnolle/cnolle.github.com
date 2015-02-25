@@ -25,7 +25,7 @@ permalink: /
 		  			<img srcset="/teasers/windhose.png, /teasers/windhose@2x.png 2x" alt="">
 		  		</picture>		  	
 		  			  		
-		  		<h4>Windhose</h4>
+		  		<h4>Windhose</h4>{% include ga.code %}		  		
 		  		<p>Soon, 2015</p>
 		  	
 		  	</article>
@@ -73,7 +73,18 @@ permalink: /
 		  	  	{% cycle 'close rows': nil, nil, '</div>' %}  	
 		    	
 		  	{% endfor %}
-		  			  	
+			
+			<article class="panel col-sm-4">
+			
+				<picture>
+					<!--[if IE 9]><video style="display: none;"><![endif]-->		  			
+					<source srcset="/a/plus.png, /a/plus@2x.png 2x" media="(min-width: 800px)">		  			
+					<!--[if IE 9]></video><![endif]-->		  			
+					<img srcset="/a/plus.png, /a/plus@2x.png 2x" alt="">
+				</picture>		  	
+					  					
+			</article>
+					  			  	
 		  {% cycle 'close rows': nil, '</div>', '</div>', '</div>' %}
   
 	</div>

@@ -127,6 +127,19 @@ article#home h1 {
 	margin:0;
 }
 
+.index-return {
+	display:block;
+	margin: 1em auto;	
+	text-align:center;
+
+	
+	@media (min-width: $screen-sm-min) {	
+		margin:0.5em 0 0 0.5em;	
+		text-align:left;
+	}
+	
+}
+
 article#home h1 a {
 	width: 302px;
 	height: 302px;	
@@ -160,8 +173,10 @@ article.panel {
 		text-transform:uppercase;
 		font-weight:normal;
 		
-		a {
+		a {		
+			color:#666;			
 			&:hover {
+				color:$green;
 				text-decoration:none;
 			}
 		}
@@ -177,6 +192,7 @@ article.panel {
 		font-family: 'Sentinel A', 'Sentinel B'; 
 		font-weight: 400; 
 		font-style: italic;
+		color:#999;
 	}
 	
 	h3.internal {
