@@ -19,11 +19,10 @@ permalink: /
 		  	<article class="panel col-sm-4">
 		  	
 		  		<picture>
-		  			<!--[if IE 9]><video style="display: none;"><![endif]-->
-		  			<source srcset="/teasers/windhose@2x.png" media="(min-width: 600px) and (min-device-pixel-ratio: 2.0)">
+		  			<!--[if IE 9]><video style="display: none;"><![endif]-->		  			
+		  			<source srcset="/teasers/windhose.png, /teasers/windhose@2x.png 2x" media="(min-width: 800px)">		  			
 		  			<!--[if IE 9]></video><![endif]-->		  			
-		  			<img srcset="/teasers/windhose.png" alt="">
-		  			<noscript><img src="/teasers/windhose.png" alt=""></noscript>
+		  			<img srcset="/teasers/windhose.png, /teasers/windhose@2x.png 2x" alt="">
 		  		</picture>		  	
 		  			  		
 		  		<h4>Windhose</h4>
@@ -35,12 +34,11 @@ permalink: /
 		  	
 		  		<article class="panel col-sm-4">
 		  		
-					<picture>
+					<picture>					
 						<!--[if IE 9]><video style="display: none;"><![endif]-->
-						<a href="{{ post.url }}"><source srcset="{{ post.thumbnail2x }}" media="(min-width: 600px) and (min-device-pixel-ratio: 2.0)"></a>
+						<a href="{{ post.url }}"><source srcset="{{ post.thumbnail }}, {{ post.thumbnail2x }} 2x" media="(min-width: 800px)"></a>
 						<!--[if IE 9]></video><![endif]-->		  			
-						<a href="{{ post.url }}"><img srcset="{{ post.thumbnail }}" alt=""></a>
-						<noscript><a href="{{ post.url }}"><img src="{{ post.thumbnail }}" alt="{{ post.title }}"></a></noscript>
+						<a href="{{ post.url }}"><img srcset="{{ post.thumbnail }}, {{ post.thumbnail2x }} 2x" alt=""></a>
 					</picture>
 		  		
 		  			<h4><a href="{{ post.url }}">{{ post.title }}</a>{% if post.status %}<span>{{ post.status }}</span>{% endif %}</h4>
@@ -60,10 +58,9 @@ permalink: /
 		  			
 		  			<picture>
 		  				<!--[if IE 9]><video style="display: none;"><![endif]-->
-		  				<a href="{{ post.url }}"><source srcset="{{ post.thumbnail2x }}" media="(min-width: 600px) and (min-device-pixel-ratio: 2.0)"></a>
+						<a href="{{ post.url }}"><source srcset="{{ post.thumbnail }}, {{ post.thumbnail2x }} 2x" media="(min-width: 800px)"></a>
 		  				<!--[if IE 9]></video><![endif]-->		  			
-		  				<a href="{{ post.url }}"><img srcset="{{ post.thumbnail }}" alt=""></a>
-		  				<noscript><a href="{{ post.url }}"><img src="{{ post.thumbnail }}" alt="{{ post.title }}"></a></noscript>
+						<a href="{{ post.url }}"><img srcset="{{ post.thumbnail }}, {{ post.thumbnail2x }} 2x" alt=""></a>
 		  			</picture>	
 		  				  		
 		  			<h4><a href="{{ post.url }}">{{ post.title }}</a>{% if post.status %}<span>{{ post.status }}</span>{% endif %}</h4>
@@ -76,7 +73,7 @@ permalink: /
 		  	  	{% cycle 'close rows': nil, nil, '</div>' %}  	
 		    	
 		  	{% endfor %}
-		  	
+		  			  	
 		  {% cycle 'close rows': nil, '</div>', '</div>', '</div>' %}
   
 	</div>

@@ -30,6 +30,8 @@
 	<meta name="description" content="{{site.description}}" />
 	{% endif %}
 	
+	<script language="javascript" type="text/javascript" src="/j/polyfill.js"></script>		
+		
 	<meta name="robots" content="{{ page.meta-robots }}" />
 
 	<link rel="alternate" type="application/rss+xml" title="Christian Nolle's RSS feed" href="http://cnolle.com/feed.xml" />
