@@ -3,7 +3,8 @@ layout: work
 category: work
 title: London Polygon
 permalink: /polygon
-thumbnail: teaser/polygon.png
+thumbnail: teasers/polygon.png
+thumbnail2x: teasers/polygon@2x.png
 year: 2007	
 description: Mapping the London air traffic network by bike.
 class: polygon

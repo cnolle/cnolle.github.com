@@ -3,7 +3,8 @@ layout: work
 category: work
 title: Aluminium
 permalink: /aluminium
-thumbnail: teaser/heathrow-two.png
+thumbnail: teasers/aluminium.png
+thumbnail2x: teasers/aluminium@2x.png
 year: 2006
 description: Blurry eyed approaches
 ---

@@ -13,9 +13,7 @@ permalink: /
 		  <div class="row">
 		  	
 		  	<article id="home" class="panel col-sm-4">
-		  	
-		  		<a href="christian.html"><img src="/a/cnolle-logo.svg" width="302" height="302" /></a>
-		  				
+		  		<a href="christian.html"><img src="/a/cnolle-logo.svg" width="302" height="302" /></a>		  				
 		  	</article>
 		  	
 		  	<article class="panel col-sm-4">
@@ -37,11 +35,13 @@ permalink: /
 		  	
 		  		<article class="panel col-sm-4">
 		  		
-		  			{% if post.external %}
-		  			<a href="{{ post.external }}"><img src="{{ site.imageurl }}/{{ post.thumbnail }}" width="302" height="302" title="{{ post.title }}" /></a>
-		  		    {% else %}
-		  			<a href="{{ post.url }}"><img src="{{ site.imageurl }}/{{ post.thumbnail }}" width="302" height="302" title="{{ post.title }}" /></a>
-		  			{% endif %}
+					<picture>
+						<!--[if IE 9]><video style="display: none;"><![endif]-->
+						<a href="{{ post.url }}"><source srcset="{{ post.thumbnail2x }}" media="(min-width: 600px) and (min-device-pixel-ratio: 2.0)"></a>
+						<!--[if IE 9]></video><![endif]-->		  			
+						<a href="{{ post.url }}"><img srcset="{{ post.thumbnail }}" alt=""></a>
+						<noscript><a href="{{ post.url }}"><img src="{{ post.thumbnail }}" alt="{{ post.title }}"></a></noscript>
+					</picture>
 		  		
 		  			<h4><a href="{{ post.url }}">{{ post.title }}</a>{% if post.status %}<span>{{ post.status }}</span>{% endif %}</h4>
 		  			<p>{{ post.year }}</p>
@@ -57,13 +57,15 @@ permalink: /
 		  	{% cycle 'add rows': '<div class="row">', nil, nil %}
 		  																					
 		  		<article class="panel col-sm-4">
-		  		
-		  			{% if post.external %}
-		  			<a href="{{ post.external }}"><img src="{{ site.imageurl }}/{{ post.thumbnail }}" width="302" height="302" title="{{ post.title }}" /></a>
-		  		    {% else %}
-		  			<a href="{{ post.url }}"><img src="{{ site.imageurl }}/{{ post.thumbnail }}" width="302" height="302" title="{{ post.title }}" /></a>
-		  			{% endif %}
-		  		
+		  			
+		  			<picture>
+		  				<!--[if IE 9]><video style="display: none;"><![endif]-->
+		  				<a href="{{ post.url }}"><source srcset="{{ post.thumbnail2x }}" media="(min-width: 600px) and (min-device-pixel-ratio: 2.0)"></a>
+		  				<!--[if IE 9]></video><![endif]-->		  			
+		  				<a href="{{ post.url }}"><img srcset="{{ post.thumbnail }}" alt=""></a>
+		  				<noscript><a href="{{ post.url }}"><img src="{{ post.thumbnail }}" alt="{{ post.title }}"></a></noscript>
+		  			</picture>	
+		  				  		
 		  			<h4><a href="{{ post.url }}">{{ post.title }}</a>{% if post.status %}<span>{{ post.status }}</span>{% endif %}</h4>
 		  			<p>{{ post.year }}</p>
 		  		
