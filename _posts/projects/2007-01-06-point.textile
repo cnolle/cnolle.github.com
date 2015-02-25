@@ -2,8 +2,8 @@
 layout: work
 category: work
 title: Point of Approach
-thumbnail: teasers/point.png
-thumbnail2x: teasers/point@2x.png
+thumbnail: teasers/point.jpg
+thumbnail2x: teasers/point@2x.jpg
 year: 2007
 category: work
 permalink: /poa

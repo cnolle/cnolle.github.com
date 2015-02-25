@@ -22,5 +22,7 @@
 
 {% endif %}
 
+{% include ga.code %}	
+
 </body>
 </html>

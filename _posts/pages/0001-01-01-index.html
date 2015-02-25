@@ -17,14 +17,15 @@ permalink: /
 		  	</article>
 		  	
 		  	<article class="panel col-sm-4">
-		  	
-		  		<picture>
-		  			<!--[if IE 9]><video style="display: none;"><![endif]-->		  			
-		  			<source srcset="/teasers/windhose.png, /teasers/windhose@2x.png 2x" media="(min-width: 800px)">		  			
-		  			<!--[if IE 9]></video><![endif]-->		  			
-		  			<img srcset="/teasers/windhose.png, /teasers/windhose@2x.png 2x" alt="">
-		  		</picture>		  	
-		  			  		
+				<div class="image-container">
+			  		<picture>
+			  			<!--[if IE 9]><video style="display: none;"><![endif]-->		  			
+			  			<source srcset="/teasers/windsock.jpg, /teasers/windsock@2x.jpg 2x" media="(min-width: 800px)">		  			
+			  			<!--[if IE 9]></video><![endif]-->		  			
+			  			<img srcset="/teasers/windsock.jpg, /teasers/windsock@2x.jpg 2x" alt="">
+			  		</picture>		  	
+				</div>
+					  			  		
 		  		<h4>Windhose</h4>{% include ga.code %}		  		
 		  		<p>Soon, 2015</p>
 		  	
@@ -33,14 +34,15 @@ permalink: /
 		  	{% for post in site.categories.work limit:1 %}
 		  	
 		  		<article class="panel col-sm-4">
-		  		
-					<picture>					
-						<!--[if IE 9]><video style="display: none;"><![endif]-->
-						<a href="{{ post.url }}"><source srcset="{{ post.thumbnail }}, {{ post.thumbnail2x }} 2x" media="(min-width: 800px)"></a>
-						<!--[if IE 9]></video><![endif]-->		  			
-						<a href="{{ post.url }}"><img srcset="{{ post.thumbnail }}, {{ post.thumbnail2x }} 2x" alt=""></a>
-					</picture>
-		  		
+		  			<div class="image-container">		  			
+						<picture>					
+							<!--[if IE 9]><video style="display: none;"><![endif]-->
+							<a href="{{ post.url }}"><source srcset="{{ post.thumbnail }}, {{ post.thumbnail2x }} 2x" media="(min-width: 800px)"></a>
+							<!--[if IE 9]></video><![endif]-->		  			
+							<a href="{{ post.url }}"><img srcset="{{ post.thumbnail }}, {{ post.thumbnail2x }} 2x" alt=""></a>
+						</picture>
+		  			</div>
+		  			
 		  			<h4><a href="{{ post.url }}">{{ post.title }}</a>{% if post.status %}<span>{{ post.status }}</span>{% endif %}</h4>
 		  			<p>{{ post.year }}</p>
 		  		
@@ -55,14 +57,15 @@ permalink: /
 		  	{% cycle 'add rows': '<div class="row">', nil, nil %}
 		  																					
 		  		<article class="panel col-sm-4">
-		  			
-		  			<picture>
-		  				<!--[if IE 9]><video style="display: none;"><![endif]-->
-						<a href="{{ post.url }}"><source srcset="{{ post.thumbnail }}, {{ post.thumbnail2x }} 2x" media="(min-width: 800px)"></a>
-		  				<!--[if IE 9]></video><![endif]-->		  			
-						<a href="{{ post.url }}"><img srcset="{{ post.thumbnail }}, {{ post.thumbnail2x }} 2x" alt=""></a>
-		  			</picture>	
-		  				  		
+		  			<div class="image-container">		  					  				
+			  			<picture>
+			  				<!--[if IE 9]><video style="display: none;"><![endif]-->
+							<a href="{{ post.url }}"><source srcset="{{ post.thumbnail }}, {{ post.thumbnail2x }} 2x" media="(min-width: 800px)"></a>
+			  				<!--[if IE 9]></video><![endif]-->		  			
+							<a href="{{ post.url }}"><img srcset="{{ post.thumbnail }}, {{ post.thumbnail2x }} 2x" alt=""></a>
+			  			</picture>	
+					</div>
+						  				  		
 		  			<h4><a href="{{ post.url }}">{{ post.title }}</a>{% if post.status %}<span>{{ post.status }}</span>{% endif %}</h4>
 		  			<p>{{ post.year }}</p>
 		  		

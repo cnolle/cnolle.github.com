@@ -3,8 +3,8 @@ layout: work
 category: work
 title: Aluminium
 permalink: /aluminium
-thumbnail: teasers/aluminium.png
-thumbnail2x: teasers/aluminium@2x.png
+thumbnail: teasers/aluminium.jpg
+thumbnail2x: teasers/aluminium@2x.jpg
 year: 2006
 description: Blurry eyed approaches
 ---

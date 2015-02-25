@@ -289,6 +289,22 @@ article.panel {
 		color: #fff;
 	}
 
+.image-container {
+		border-radius:60%;
+        overflow: hidden;
+        max-width:302px;
+        max-height:302px;
+        margin:0 auto;
+	
+	picture {
+		display: block;
+		height: 100%;
+		width: 100%;
+		min-width: 100%;
+		min-height: 100%;
+    }	
+}
+
 /* LONDON POLYGON */	
 
 #london_polygon {
