@@ -1,6 +1,6 @@
 <footer>	
 	<ul>
-		<li><a href="mailto:me@cnolle.com">CONTACT</a> &copy; 1995&#8211;2015</li>
+		<li><a href="mailto:me@cnolle.com">CONTACT</a> &copy; 1995&#8211;2016</li>
 	</ul>	
 </footer>
 
@@ -21,8 +21,6 @@
 </script>
 
 {% endif %}
-
-{% include ga.code %}	
 
 </body>
 </html>

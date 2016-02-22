@@ -1,4 +1,4 @@
-permalink: /:categories/:title
+permalink: /:title
 url: http://cnolle.com
 main_title: Christian Nolle
 include: [a, c, j]

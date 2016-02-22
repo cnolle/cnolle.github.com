@@ -13,25 +13,13 @@ permalink: /
 		  <div class="row">
 		  	
 		  	<article id="home" class="panel col-sm-4">
-		  		<a href="christian.html"><img src="/a/cnolle-logo.svg" width="302" height="302" /></a>		  				
+		  		<a href="/christian/"><img src="/a/cnolle-logo.svg" width="302" height="302" /></a>
+		  		
+		  		<h4><a href="/christian/">About</a></h4>
+		  		
 		  	</article>
-		  	
-		  	<article class="panel col-sm-4">
-				<div class="image-container">
-			  		<picture>
-			  			<!--[if IE 9]><video style="display: none;"><![endif]-->		  			
-			  			<source srcset="/teasers/windsock.jpg, /teasers/windsock@2x.jpg 2x" media="(min-width: 800px)">		  			
-			  			<!--[if IE 9]></video><![endif]-->		  			
-			  			<img srcset="/teasers/windsock.jpg, /teasers/windsock@2x.jpg 2x" alt="">
-			  		</picture>		  	
-				</div>
-					  			  		
-		  		<h4>Windhose</h4>{% include ga.code %}		  		
-		  		<p>Soon, 2015</p>
-		  	
-		  	</article>
-		  	
-		  	{% for post in site.categories.work limit:1 %}
+		  			  	
+		  	{% for post in site.categories.work limit:2 %}
 		  	
 		  		<article class="panel col-sm-4">
 		  			<div class="image-container">		  			
@@ -44,15 +32,14 @@ permalink: /
 		  			</div>
 		  			
 		  			<h4><a href="{{ post.url }}">{{ post.title }}</a>{% if post.status %}<span>{{ post.status }}</span>{% endif %}</h4>
-		  			<p>{{ post.year }}</p>
-		  		
+		  			<p>{{ post.year }}</p>		  		
 		  		</article>
 		  	
 		  	{% endfor %}	
 		  
 		  </div><!--/top -->
 		  		
-		  {% for post in site.categories.work offset:1 limit:20 %}
+		  {% for post in site.categories.work offset:2 limit:20 %}
 		  								
 		  	{% cycle 'add rows': '<div class="row">', nil, nil %}
 		  																					
@@ -85,7 +72,7 @@ permalink: /
 					<!--[if IE 9]></video><![endif]-->		  			
 					<img srcset="/a/plus.png, /a/plus@2x.png 2x" alt="">
 				</picture>		  	
-					  					
+				<h4><a href="/bulletins">Bulletins</a></h4>					  					
 			</article>
 					  			  	
 		  {% cycle 'close rows': nil, '</div>', '</div>', '</div>' %}
