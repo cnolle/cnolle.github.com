@@ -13,7 +13,7 @@ css_dir = "css"
 sass_dir = "sass"
 images_dir = "a"
 javascripts_dir = "j"
-environment = :development
+environment = :production
 relative_assets = true
 
 

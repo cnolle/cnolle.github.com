@@ -1,6 +1,6 @@
 /*
 *************************************************
-DUCK
+DUCK TWO POINT OH
 **************************************************/
 
 @import "bootstrap";
@@ -115,7 +115,7 @@ a {
 }
 
 #bordering {
-	background:#fcf9f2;
+	background:$yellow-bg;
 	margin: 1em;
 	padding: 1em;
 	max-width: 100%;
@@ -129,58 +129,62 @@ article#home h1 {
 
 .index-return {
 	display:block;
-	margin: 1em auto;	
-	text-align:center;
-
 	
-	@media (min-width: $screen-sm-min) {	
-		margin:0.5em 0 0 0.5em;	
-		text-align:left;
+	margin:0.5em 0 0 0.5em;	
+	text-align:left;
+}
+
+article#home {
+	h1 {
+		a {
+			width: 302px;
+			height: 302px;	
+			@include at2x('home',302px,302px);
+			display: block;
+			text-indent: -999em;
+		}	
 	}
 	
-}
-
-article#home h1 a {
-	width: 302px;
-	height: 302px;	
-	@include at2x('home',302px,302px);
-	display: block;
-	text-indent: -999em;
-}
-
-article#home.panel h4 {
-	margin-top: 0.3em;
-	font-family: 'Sentinel A', 'Sentinel B'; 
-	font-weight: 400; 
-	font-style: normal;	
-}
-
-article#home.panel h4 a {
-	padding: 0.3em;
-	border-radius:0.2em;
-	border: 1px solid #fff;		
+	&.panel h4 {
+		margin-top: 0.3em;
+		font-family: 'Sentinel A', 'Sentinel B'; 
+		font-weight: 400; 
+		font-style: normal;
+		
+		a {
+			padding: 0.3em;		
+		}
+	}
 }
 
 article.panel {
 	text-align:center;
 	position: relative;
-	margin-bottom:1em;
-}
-
-	article.panel h4 {
-		font-size: 0.9em;
-		margin:0.2em 0;
-		text-transform:uppercase;
+	margin-bottom:2em;
+	
+	
+	picture {
+		height:302px;
+		width:302px;
+		background:$light-grey;
+	}
+	
+	h4 {
+		font-size: 1em;
+		margin:0.2em 0 0.1em 0;
+		//text-transform:uppercase;
 		font-weight:normal;
 		
 		a {		
-			color:#666;			
+			color:darken(#666,10%);			
 			&:hover {
 				color:$green;
 				text-decoration:none;
 			}
 		}
 	}
+	
+}
 		
 	.internal {
 		margin: 100px 0;
@@ -223,14 +227,6 @@ article.panel {
 			border-radius:4em;
 			margin: 0 0.2em;
 		}
-	
-		span a.next {
-
-		}
-		
-		span a.previous {
-
-		}
 		
 		p.instructions {
 			position:absolute;
@@ -241,21 +237,6 @@ article.panel {
 			padding: 1em 0;
 			font-size: 80%;
 		}
-	
-	article#blank.panel {
-		text-align:center;
-		display:block;
-		@include at2x('plus',302px,302px);
-		width: 302px;
-		height: 302px;
-	}
-	
-	.green {
-		background:url(/a/blank.png) no-repeat center center;
-		width: 302px;
-		height: 302px;
-		position:relative;
-	}
 	
 	article#news {
 		text-align:center;
@@ -336,6 +317,7 @@ footer {
 	}
 
 	footer ul li {
+		text-align:center;
 		font-size: 0.8em;
 	}
 	
@@ -344,26 +326,6 @@ footer {
 	}
 	
 /* WORK PAGES, SIMPLE */
-
-header#work {
-	width: 100%;
-	height: 100px;
-	position:absolute;
-	top: 0;
-}
-
-	header#work h1 a  {
-			
-		@include at2x('home-small',75px,75px);
-		margin: 10px 0 0 10px;
-		width: 75px;
-		text-indent:-999em;
-		height: 75px;
-		z-index:100;
-		position:relative;
-		float: left;
-		display:block;
-	}
 
 header#bulletins {
 	width:auto;
@@ -396,122 +358,6 @@ header .work-nav {
 	z-index:100;
 }
 
-	header ul li.nav-current a {
-		font-weight:bold;
-		background:rgba(255,255,255,0.7);
-	}
-
-.nav-work {
-	position:absolute;
-	top: 10px;
-	right: 10px;
-	z-index:100;	
-	width: 270px;
-	clear: left;
-	margin: 0 0 2em 0;
-}
-.nav-work h3 {
-	z-index:120;
-	position: absolute;
-	left: -999em;
-}
-.nav-work ul {
-	margin: 0;
-	padding: 0;
-	border: 1px solid #e6e6e6;
-}
-
-.nav-work li {
-	padding: 0;
-	margin: 0;
-	list-style:none;
-	border-bottom: 1px solid #eee;
-}
-
-.nav-work li:last-child {
-   border-bottom: 0;
-}
-.nav-work a {
-	width: 220px;
-	display: block;
-	padding: .2em .4em;
-	text-decoration: none;
-	color: #333;
-}
-.nav-work a:hover {
-   background-color: #f8f8f8;
-}
-.nav-work .nav-current {
-   font-weight: bold;
-}
-
-.nav-work.expanded ul {
-	margin: 0;
-	padding: 0;
-	background:rgba(255,255,255,0.9);
-}
-
-.nav-menu .nav-work {
-	margin: 0 0 1.5em;
-	position:absolute;
-	right: 10px;
-	top: 10px;
-	overflow: hidden;
-}
-
-.nav-menu .nav-work h3 {
-   position: absolute;
-   top: 0;
-   margin: 0;
-   left: auto;
-   right: 0px;
-   display: block;
-   width: 2em;
-   height: 2em; 
-   background: #00a651 url(/a/icons.png) no-repeat -208px 50%;
-   text-indent: -999em;
-   cursor: pointer;
-}
-.nav-menu .nav-work.expanded h3 {
-   background-position: -173px 50%;
-}
-.nav-menu .nav-work li {
-   clear: left;
-   display: none;
-}    
-.nav-menu .nav-work.expanded li,
-.nav-menu .nav-work li.nav-current {
-   display: list-item;
-} 
-.nav-menu .nav-work li.nav-current {
-   border-bottom-width: 0;
-}
-.nav-menu .nav-work.expanded li.nav-current {
-   border-bottom-width: 1px;
-}
-
-#totop {
-	width:30px;
-	height: 30px;
-	line-height:2.5;
-	color: #fff;
-	background:#00A651;
-	border-radius:4em;
-	text-align:center;
-	padding:5px;
-	position:fixed; /* this is the magic */
-	bottom:20px; /* together with this to put the div at the bottom*/
-	right:20px;
-	cursor:pointer;
-	display:none;
-	font-size:12px;
-	font-weight:bold;
-}
-
-	.toplink:hover {
-		background: #ccc;
-	}
-	
 	iframe {
 		margin: 0 auto;
 		width: 800px;
@@ -524,7 +370,6 @@ ul.internalnav {
 	padding: 0;
 	margin-bottom: 2em;
 }
-	
 
 ul.internalnav li.previous{
 	float: left;
@@ -542,18 +387,15 @@ section#briefly {
 
 body#christian section#page h2 {
 	font-size: 2em;
-	margin-top: 10em;
+	
+	@media (min-width: $screen-sm-min) {							
+		//margin-top: 10em;
+	}
 }
 
 body#christian {
 	background:url(../a/wheels.png) top left no-repeat fixed;
 }
-
-/*body#poa footer {
-	padding: 0 0 300px 0;
-	background:url(../a/poa-footer.gif) bottom left no-repeat fixed;
-}*/
-
 
 section#listing ol li span {
 	display:block;
@@ -572,17 +414,20 @@ ul#slideshow {
 /* Default image slideshow style */
 
 ul#imagelist {
-	margin: 9em 0 0 0;
+	margin: 2em 0 0 0;
 	padding: 0;
 	width: 100%;
 	text-align: center;
 	clear: left;
 }
 	ul#imagelist li {
-/*		width: 100%;*/
+		max-width:1100px;
 		list-style: none;
-		margin: 2.5em auto 10em auto;
-		display: block;
+		margin:1em 0 2em 0;
+		@media (min-width: $screen-sm-min) {							
+			margin: 2.5em auto 10em auto;
+		}
+		display: block;	
 		padding: 0 0.5em;
 		position: relative;	
 		height: 100%;
@@ -615,38 +460,37 @@ ul#imagelist {
 		display:inline;
 	}
 	
-	.introcopy {
+.introcopy {
+	padding:0.5em;
+	
+	@media (min-width: $screen-sm-min) {			
 		padding: 5em 0 0 0;
-		margin-top: 10em;
-		max-width: 40em;
-		margin: 0 auto;
 	}
 	
-		.col1 {
-			float: left;
-			width: 400px;
-			margin-right:15px;
-		}
-		
-		.col2 {
-			vertical-align:top;
-			width: 400px;
-			float: right;
-			margin-left: 15px;
-		}
+	max-width: 40em;
+	margin: 0 auto;
 	
-		.introcopy p {
-			margin-bottom: 1em;
-		}
+	h1 {
+		font-weight:normal;
+	}
+	
+	time {
+		font-family: 'Sentinel A', 'Sentinel B'; 
+		font-weight: 400; 
+		font-style: italic;
+		color:#999;	
+		font-size:1em;
+	}
+	
+	p {
+		margin-bottom: 1em;
 		
-		.introcopy p small {
+		small {
 			font-size: 0.7em;
 			line-height:0;
-		}
-	
-	#multicolumnElement {
-
+		}		
 	}
+}
 	
 #buttons {
 	margin: 0 auto;
@@ -818,10 +662,6 @@ screen and (max-width: 600px)  {
 		display:none;
 	}
 
-	.introcopy {
-		margin: 5em 0.5em 1em 0.5em;
-	}
-
 	#bordering {
 		margin: 0.2em;
 		padding: 0.2em;
@@ -846,7 +686,10 @@ screen and (max-width: 600px)  {
 	
 	
 	ul#imagelist {
-		margin-top: 11em;
+		margin-top:1em;
+		@media (min-width: $screen-sm-min) {					
+			margin-top: 11em;
+		}
 	}
 	
 	article.panel,
@@ -900,4 +743,172 @@ body {
 
 #section-holder {
 	position:relative;
+}
+
+// NEW PROJECT NAV
+
+/* General dropdown styles */       
+
+dl {
+	&.dropdown {
+				
+		margin:0 0.5em;
+		position:relative;
+		z-index:100;
+		
+		@media (min-width: $screen-sm-min) {			
+			//position:absolute;
+			//top:2em;
+			//left:auto;
+			//right:2em;
+		}
+				
+		dd {
+			margin:0;
+			padding:0;
+			position:relative;
+			
+			ul { 
+				border-radius:0.1em;				
+				background:$green none repeat scroll 0 0; 
+				display:none;
+			    list-style:none; 
+			    padding: 0; 
+			    position:absolute; 
+			    margin:0;
+			    left:0px; 
+			    top:2px; 
+			    width:100%;
+			    @media (min-width: $screen-sm-min) {	
+				    width:auto; 
+				    min-width:180px;
+				}
+			    
+			    li {
+				    a { 
+				    	padding:5px; 
+				    	color:$white;
+				    	display:block;
+				    	
+				    	&:hover {
+				       		background-color:rgba($white,0.7);				    		
+				    		text-decoration:none;
+				    		color:$black;
+				    	}
+				    }			    
+				    
+				    &.nav-current {
+				    	a {
+				    		font-weight:bold;
+				    		background-color:rgba($white,0.7);
+							color:$black;				    	
+				    	}				    	
+				    }				    
+			    }			    
+			}			 
+		}
+		
+		dt { 
+			a {
+				border-radius:0.1em;
+				background:#efefef url(arrow.png) no-repeat scroll right center;
+				display:block; 
+				font-weight:bold;
+				text-transform:uppercase;
+
+				border: 1px solid #e6e6e6;				
+				width:100%;
+				
+			    @media (min-width: $screen-sm-min) {					
+					width:180px;
+				}
+				
+				span {
+					&:hover {
+						text-decoration:none;
+					}
+					
+					cursor:pointer; 
+					display:block; 
+					padding:5px;
+				}				
+			}
+		}				
+	}
+}
+
+/* UL styles */
+.dropdown dd .dropdown span.value { 
+	display:none;
+}
+
+// DRAWER
+
+
+.work-drawer {
+	background:$yellow-bg;
+	height:0;
+	overflow:hidden;
+
+	transition-property: height;
+	transition-duration: 1s;
+	h3 {
+		font-weight:normal;
+		margin-top:0;
+		margin-bottom:0em;
+		
+		a {
+			padding:0.2em;
+			display:block;
+			
+			&.nav-current {
+				background:$green;
+				color:$white;
+			}						
+		}
+	}
+
+	&.show {
+		position:fixed;
+		top:0;
+		padding-top:0.5em;
+		padding-bottom:0.5em;
+		border:1em solid $white;
+		border-bottom:none;
+		width:100%;
+		left:0;		
+		z-index:210;
+		height:auto;		
+		overflow:visible;
+	}	
+}
+
+.activate-work {
+	position:fixed;
+	top:1em;
+	right:0;
+    z-index:211;
+    @media (min-width: $screen-sm-min) {						
+		z-index:200;
+	}
+			
+	a {
+		border:1px solid $light-grey;
+		font-weight:bold;
+		text-transform:uppercase;
+		display:block;
+		background:$yellow-bg;
+		margin:0 1em 0 0;
+		padding:0.7em;	
+		
+		&.active {	
+			border:none;
+			background:none;
+			color:$black;
+		}
+		
+		&:hover {
+			text-decoration:none;			
+		}
+	}
 }

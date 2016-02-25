@@ -1,13 +1,11 @@
 <footer>	
 	<ul>
-		<li><a href="mailto:me@cnolle.com">CONTACT</a> &copy; 1995&#8211;2016</li>
+		<li><a href="mailto:me@cnolle.com">GET IN TOUCH</a> &copy; 1995&#8211;2016</li>
 	</ul>	
 </footer>
 
 <script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.js"></script>
 <script>window.jQuery || document.write('<script src="/j/jquery.js">\x3C/script>')</script>
-<script language="javascript" type="text/javascript" src="/j/respond.js"></script>		
-<script language="javascript" type="text/javascript" src="/j/jquery.scrollTo-1.4.4.js"></script>
 <script language="javascript" type="text/javascript" src="/j/screen.js"></script> 
  
 {% if page.enhanced %}
@@ -21,6 +19,8 @@
 </script>
 
 {% endif %}
+
+{% include ga.code %}
 
 </body>
 </html>

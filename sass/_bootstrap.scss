@@ -259,6 +259,16 @@ hr {
   padding-left: 15px;
   padding-right: 15px;
 }
+
+.container-fluid {
+	margin-right: auto;
+	margin-left: auto;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
+.container-fluid:before,
+.container-fluid::after,
 .container:before,
 .container:after {
   content: " ";

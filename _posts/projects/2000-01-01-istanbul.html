@@ -9,7 +9,10 @@ permalink: /istanbul/
 map: yes
 ---
 
-<div id="map" style="width: 100%; height: 400px"></div>
+<div class="introcopy">
+	<h1>Istanbul</h1>
+	<time>2000</time>
+</div>
 
 <ul id="imagelist">
 
@@ -48,9 +51,3 @@ map: yes
    <li class="nav1573"><img src="{{ site.imageurl }}/stan/004.jpg" alt="" title="" /><span class="title"></span></li>   
       
 </ul>
-
-<script>
-  var layer = mapbox.layer().id('goodcaesar.istanbul');
-  var map = mapbox.map('map', layer, null, []);
-  map.centerzoom({lat:41.0107 , lon:28.9773 }, 12);
-</script>

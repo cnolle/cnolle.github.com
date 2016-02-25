@@ -6,27 +6,17 @@ title: E.U.R
 thumbnail: teasers/eur.jpg
 thumbnail2x: teasers/eur@2x.jpg
 year: 2005
-map: yes
 ---
 
-<div id="map" style="width: 100%; height: 300px"></div>
+<div class="introcopy">
+	<h1>E.U.R</h1>
+	<time>2005</time>
+</div>
 
 <ul id="imagelist">
-
-	<li><img src="{{ site.imageurl }}/eur/green_grass.jpg" alt="" title="" /><span class="title"></span></li>
-	
-	<li><img src="{{ site.imageurl }}/eur/horse_on_hedge.jpg" alt="" title="" /><span class="title"></span></li>
-	
+	<li><img src="{{ site.imageurl }}/eur/green_grass.jpg" alt="" title="" /><span class="title"></span></li>	
+	<li><img src="{{ site.imageurl }}/eur/horse_on_hedge.jpg" alt="" title="" /><span class="title"></span></li>	
 	<li><img src="{{ site.imageurl }}/eur/oranges1.jpg" alt="" title="" /><span class="title"></span></li>	
-
 	<li><img src="{{ site.imageurl }}/eur/overview.jpg" alt="" title="" /><span class="title"></span></li>
-
 	<li><img src="{{ site.imageurl }}/eur/sculpture.jpg" alt="" title="" /><span class="title"></span></li>
-
 </ul>
-
-<script>
-  var layer = mapbox.layer().id('goodcaesar.rome_eur');
-  var map = mapbox.map('map', layer, null, []);
-  map.centerzoom({lat:41.8304 , lon:12.4661 }, 14);
-</script>

@@ -47,9 +47,9 @@ permalink: /
 		  			<div class="image-container">		  					  				
 			  			<picture>
 			  				<!--[if IE 9]><video style="display: none;"><![endif]-->
-							<a href="{{ post.url }}"><source srcset="{{ post.thumbnail }}, {{ post.thumbnail2x }} 2x" media="(min-width: 800px)"></a>
+							<a href="{{ post.url }}"><source srcset="{{ post.thumbnail }}, {{ post.thumbnail2x }} 2x" media="(min-width: 800px)" class="lazyload"></a>
 			  				<!--[if IE 9]></video><![endif]-->		  			
-							<a href="{{ post.url }}"><img srcset="{{ post.thumbnail }}, {{ post.thumbnail2x }} 2x" alt=""></a>
+							<a href="{{ post.url }}"><img srcset="{{ post.thumbnail }}, {{ post.thumbnail2x }} 2x" alt="" class="lazyload"></a>
 			  			</picture>	
 					</div>
 						  				  		
@@ -68,11 +68,11 @@ permalink: /
 			
 				<picture>
 					<!--[if IE 9]><video style="display: none;"><![endif]-->		  			
-					<source srcset="/a/plus.png, /a/plus@2x.png 2x" media="(min-width: 800px)">		  			
+					<source width="302" height="302" srcset="/a/plus.png, /a/plus@2x.png 2x" media="(min-width: 800px)">		  			
 					<!--[if IE 9]></video><![endif]-->		  			
-					<img srcset="/a/plus.png, /a/plus@2x.png 2x" alt="">
+					<img widthidth="302" height="302"srcset="/a/plus.png, /a/plus@2x.png 2x" alt="">
 				</picture>		  	
-				<h4><a href="/bulletins">Bulletins</a></h4>					  					
+				<h4><a href="https://twitter.com/briefly">No news is good news</a></h4>		
 			</article>
 					  			  	
 		  {% cycle 'close rows': nil, '</div>', '</div>', '</div>' %}

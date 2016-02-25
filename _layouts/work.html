@@ -1,43 +1,49 @@
 {% include header.code %}
 
+<div class="work-drawer">
+	<div class="container-fluid">
+	{% for post in site.categories.work %}
+			
+	 	{% cycle 'add rows': '<div class="row">', nil %}
+	
+		{% if post.external %}
+						
+			<div class="col-sm-6">
+			{% if page.url == post.url %}
+					<h3><a class="nav-current" href="{{ post.external }}">{{ post.title }}</a></h3>
+				{% else %}
+					<h3><a href="{{ post.external }}">{{ post.title }}</a></h3>
+			{% endif %}
+			</div>
+
+		{% else %}
+			
+			<div class="col-sm-6">			
+			{% if page.url == post.url %}
+					<h3><a class="nav-current" href="{{ post.url }}">{{ post.title }}</a></h3>				
+				{% else %}
+					<h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
+			{% endif %}
+			</div>
+
+		{% endif %}
+
+ 	  	{% cycle 'close rows': nil, '</div>' %}  			
+		
+	{% endfor %}
+		</div>			
+	</div>
+</div>
+
+<div class="activate-work"><a href="">Work</a></div>
+
 <header id="work">
 
 	<a href="/../" class="index-return"><img src="/a/green-duck.svg" width="70" height="70" /></a>
-
-	<div class="nav-work">
-		
-		<h3>Section:</h3>
 	
-		<ul>
-		
-		{% for post in site.categories.work %}
-				
-			{% if post.external %}
-	
-				{% if page.url == post.url %}
-						<li class="nav-current"><a href="{{ post.external }}">{{ post.title }}</a></li>
-					{% else %}
-						<li><a href="{{ post.external }}">{{ post.title }}</a></li>
-				{% endif %}
-	
-			{% else %}
-	
-				{% if page.url == post.url %}
-						<li class="nav-current"><a href="{{ post.url }}">{{ post.title }}</a></li>
-					{% else %}
-						<li><a href="{{ post.url }}">{{ post.title }}</a></li>
-					{% endif %}
-	
-			{% endif %}
-		
-		{% endfor %}
-				
-		</ul>
-	</div><!-- /work-nav -->
-
 </header>
 
-<div id="main" role="main" class="clearfix">
+<div id="main" role="main">
 
 	{{ content }}
     
