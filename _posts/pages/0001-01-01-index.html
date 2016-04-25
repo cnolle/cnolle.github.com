@@ -18,20 +18,6 @@ permalink: /
 		  		<h4><a href="/christian/">About</a></h4>
 		  		
 		  	</article>
-
-			<article class="panel col-sm-4">
-				<div class="image-container">		  			
-				<picture>					
-					<!--[if IE 9]><video style="display: none;"><![endif]-->
-					<source srcset="teasers/hongkong.jpg, teasers/hongkong@2x.jpg 2x" media="(min-width: 800px)">
-					<!--[if IE 9]></video><![endif]-->		  			
-					<img srcset="teasers/hongkong.jpg, teasers/hongkong@2x.jpg 2x" alt="">
-				</picture>
-				</div>
-				
-				<h4>Hong Kong</h4>
-				<p>Coming soon</p>		  		
-			</article>
 		  	
 	  		<article class="panel col-sm-4">
 	  			<div class="image-container">		  			
@@ -46,10 +32,29 @@ permalink: /
 	  			<h4>Holding</h4>
 	  			<p>Coming soon</p>		  		
 	  		</article>
+	  		
+	  		{% for post in site.categories.work limit:1 %}
+
+			<article class="panel col-sm-4">
+				<div class="image-container">		  					  				
+					<picture>
+						<!--[if IE 9]><video style="display: none;"><![endif]-->
+					<a href="{{ post.url }}"><source srcset="{{ post.thumbnail }}, {{ post.thumbnail2x }} 2x" media="(min-width: 800px)" class="lazyload"></a>
+						<!--[if IE 9]></video><![endif]-->		  			
+					<a href="{{ post.url }}"><img srcset="{{ post.thumbnail }}, {{ post.thumbnail2x }} 2x" alt="" class="lazyload"></a>
+					</picture>	
+			</div>
+				  				  		
+				<h4><a href="{{ post.url }}">{{ post.title }}</a>{% if post.status %}<span>{{ post.status }}</span>{% endif %}</h4>
+				<p>{{ post.year }}</p>
+			
+			</article>
+		  		
+	  		{% endfor %}
 		  			  			  
 		  </div><!--/top -->
 		  		
-		  {% for post in site.categories.work limit:20 %}
+		  {% for post in site.categories.work limit:20 offset:1 %}
 		  								
 		  	{% cycle 'add rows': '<div class="row">', nil, nil %}
 		  																					
