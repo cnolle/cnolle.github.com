@@ -35,7 +35,6 @@
 	   document.createElement( "picture" );
 	 </script>
 	<script src="/j/picturefill.js"></script>		
-	<script src="/j/lazysizes.min.js"></script>		
 
 	<meta name="robots" content="{{ page.meta-robots }}" />
 

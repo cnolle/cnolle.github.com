@@ -60,8 +60,7 @@ img {
 
 body {
 	background:#fff;
-	
-	font-family: 'Sentinel A', 'Sentinel B'; 
+	font-family: $egyptian; 
 	font-weight: 400; 
 	font-style: normal;	
 		
@@ -147,7 +146,7 @@ article#home {
 	
 	&.panel h4 {
 		margin-top: 0.3em;
-		font-family: 'Sentinel A', 'Sentinel B'; 
+		font-family: $egyptian; 
 		font-weight: 400; 
 		font-style: normal;
 		
@@ -193,7 +192,7 @@ article.panel {
 	article.panel p {
 		margin:0;
 		font-size: 0.7em;
-		font-family: 'Sentinel A', 'Sentinel B'; 
+		font-family: $egyptian; 
 		font-weight: 400; 
 		font-style: italic;
 		color:#999;
@@ -476,7 +475,7 @@ ul#imagelist {
 	}
 	
 	time {
-		font-family: 'Sentinel A', 'Sentinel B'; 
+		font-family: $egyptian; 
 		font-weight: 400; 
 		font-style: italic;
 		color:#999;	
@@ -510,39 +509,6 @@ iframe {
 	margin:auto 0;
 	text-align:center;
 }
-
-/* PPL Teaser
------------------------------- */
-
-	#ppl-teaser {
-		position:relative;
-		height: 320px;
-	}
-	
-	#ppl-teaser h4 {
-		margin-top: 310px;
-	}
-
-	#ppl-teaser #map-holder {
-		position:relative;				
-		width: 302px;
-		height: 302px;
-		z-index:300;
-		display:block;
-		background: url(../a/circle-clipping.png) no-repeat center center;
-	}
-	
-	#ppl-teaser #map {
-		position:absolute;
-		top: 0;
-		left: 0;
-		z-index:10;
-		display:block;
-	}
-	
-	#ppl-teaser .leaflet-control {
-		display:none;
-	}
 
 /* London Polygon
 ------------------------------ */
@@ -581,7 +547,6 @@ h1 {
 	
 	time {
 		margin-bottom: 0.5em;
-		letter-spacing:1px;
 		font-size: 0.8rem;
 		display:block;
 	}
@@ -910,5 +875,12 @@ dl {
 		&:hover {
 			text-decoration:none;			
 		}
+	}
+}
+
+.big-intro {
+	h1 {
+		font-family: $egyptian; 
+		font-size:9em;
 	}
 }
